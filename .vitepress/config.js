@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 //const anchor = require('markdown-it-anchor')
 //env BASE = /otto/
 //const base = process.env.BASE || '/'
-//const base = '/otto/'
+const base = '/vitepress-basic/'
 
 const fa = require('@gerhobbelt/markdown-it-fontawesome')
 const dl = require('markdown-it-deflist')
@@ -14,8 +14,8 @@ export default defineConfig({
   //--------------------------------------------------
   //extends: ,
   //lang: ,
-  //base: ,
-  //title: ,
+  base: base,
+  title: 'vitepress' ,
   //description: ,
   //head: ,
   //themeConfig: ,
