@@ -3,7 +3,7 @@ home: true
 
 heroImage: ./images/pix1.jpg
 heroAlt: Logo image
-heroText: Hero Title
+heroText: A Simple Vitepress
 tagline: Hero subtitle
 
 actionText: Get Started
