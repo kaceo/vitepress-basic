@@ -1,13 +1,13 @@
 ---
 home: true
 
-heroImage: ./images/pix1.jpg
+heroImage: /images/pix1.jpg
 heroAlt: Logo image
 heroText: A Simple Vitepress
 tagline: Hero subtitle
 
 actionText: Get Started
-actionLink: /book/getting_started/
+actionLink: /book/getting_started.md
 
 features:
   - title: Simplicity First
