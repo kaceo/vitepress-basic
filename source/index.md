@@ -7,7 +7,7 @@ heroText: A Simple Vitepress
 tagline: Hero subtitle
 
 actionText: Get Started
-actionLink: /book/getting_started.md
+actionLink: /about.md
 
 features:
   - title: Simplicity First
@@ -25,22 +25,9 @@ footer: MIT Licensed | Copyright © 2019-present Evan You
 
 # Hello Vitepress {.special}
 
-* [About](/about)
-* [Demo](/demo)
-* [Music](/music)
-* [Get Started](/book/getting_started)
+* [About](/about.md)
+* [Demo](/demo.md)
+* [Music](/music.md)
+* [Get Started](/book/getting_started.md)
 
-
-
-Do you like this?
-
-Hello World! :fa-flag:
-
-- [:fab-facebook: Google](https://www.google.com/)
-- [:fas-bell: GitHub](https://github.com/)
-
-Hello World! :fas-flag:
-
-- [:fab-google: Google](https://www.google.com/)
-- [:fab-github: GitHub](https://github.com/)
-
+![](/images/pix2.jpg){width=250}
