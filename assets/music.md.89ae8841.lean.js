@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.13fec242.js";const u='{"title":"Music Markdown-it plugin?","description":"","frontmatter":{},"headers":[],"relativePath":"music.md"}',s={},n=a("",15),p=[n];function r(i,c,_,l,d,h){return o(),e("div",null,p)}var k=t(s,[["render",r]]);export{u as __pageData,k as default};
