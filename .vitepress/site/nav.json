@@ -1,0 +1,22 @@
+[
+  {
+    "text": "🏡Home",
+    "link": "/"
+  },
+  {
+    "text": "🔖Tags",
+    "link": "/tags"
+  },
+  {
+    "text": "📃Archives",
+    "link": "/archives"
+  },
+  {
+    "text": "About",
+    "link": "/about"
+  },
+  {
+    "text": "Github",
+    "link": "https://github.com/"
+  }
+]

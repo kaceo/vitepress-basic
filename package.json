@@ -4,11 +4,22 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@gerhobbelt/markdown-it-fontawesome": "^0.3.0-3",
+    "@gerhobbelt/markdown-it-fontawesome": "0.3.0-3",
+    "@originjs/vite-plugin-content": "^1.0.1",
     "markdown-it-deflist": "^2.1.0",
     "pug": "^3.0.2",
-    "sass": "^1.49.9",
-    "vitepress": "^0.22.3"
+    "sass": "^1.49.11",
+    "vite-plugin-compress": "^2.1.1",
+    "vite-plugin-radar": "^0.4.2",
+    "vite-plugin-vue-gql": "^0.2.10",
+    "vitepress": "^0.22.3",
+    "vue": "^3.2.31"
+
+  },
+  "dependencies": {
+    "@urql/vue": "0.4.0",
+    "graphql": "15.5.0",
+    "pinia": "^2.0.13"
   },
   "scripts": {
     "dev": "vitepress dev --host 0.0.0.0",
@@ -30,5 +41,16 @@
     "tailwindcss": "^3.0.23",
     "sass": "^1.49.7",
     "rimraf": "^3.0.2"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react",
+        "vite"
+      ]
+    }
   }
 }
