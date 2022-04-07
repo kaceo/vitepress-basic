@@ -55,6 +55,9 @@ tabstave
   text :w, |#segno, ,|, :hd, , #tr
 :::
 
+![](/images/pix1.jpg){width=250}
+
+![](./pix3.jpg){width=250}
 
 
 
