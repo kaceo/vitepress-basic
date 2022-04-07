@@ -1,0 +1,6 @@
+- name: test1
+  link: /john
+- name: test2
+  link: /mary
+- name: test3
+  link: /susan

@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 
 heroImage: /images/pix1.jpg
 heroAlt: Logo image

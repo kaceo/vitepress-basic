@@ -1,0 +1,10 @@
+name: Mr Big
+link: Somewhere
+meta: ther's a place for us
+children:
+- name: test1
+  link: /john
+- name: test2
+  link: /mary
+- name: test3
+  link: /susan

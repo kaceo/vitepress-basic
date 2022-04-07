@@ -1,34 +1,30 @@
 [
   {
-    "text": "Introduction",
+    "text": "Test",
     "children": [
       {
-        "text": "What is VitePress?",
+        "text": "Home",
         "link": "/"
       },
       {
-        "text": "Getting Started",
-        "link": "/guide/getting-started"
+        "text": "About",
+        "link": "/about"
       },
       {
-        "text": "Configuration",
-        "link": "/guide/configuration"
+        "text": "Demo",
+        "link": "/demo"
       },
       {
-        "text": "Asset Handling",
-        "link": "/guide/assets"
+        "text": "Music",
+        "link": "/music"
       },
       {
-        "text": "Markdown Extensions",
-        "link": "/guide/markdown"
+        "text": "Data",
+        "link": "/data"
       },
       {
-        "text": "Using Vue in Markdown",
-        "link": "/guide/using-vue"
-      },
-      {
-        "text": "Deploying",
-        "link": "/guide/deploy"
+        "text": "Book",
+        "link": "/book/getting_started"
       }
     ]
   },

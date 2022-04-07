@@ -14,16 +14,19 @@ import compress from 'vite-plugin-compress'
 //const anchor = require('markdown-it-anchor')
 const fa = require('@gerhobbelt/markdown-it-fontawesome')
 const dl = require('markdown-it-deflist')
+
 const base = '/vitepress-basic/'
+const myrepo = 'kaceo'+base
 //const base = process.env.BASE || '/'
 
 
+
 export default defineConfig({
-  //base,
+  base,
   srcDir: 'source',
+  srcExclude: ['vue/**/*.md'] ,
   outDir: 'dist',
   lang: 'en-US',
-  //srcExclude: ,
   shouldPreload: false,
   //scrollOffset: ,
   scrollOffset: 'header',
@@ -33,12 +36,12 @@ export default defineConfig({
   //========================================
   //site constants
   //extends: ,
-  title: 'vitepress' ,
+  title: 'Demo Vitepress' ,
   description: 'Simple Vite static site generator.',
   //locales: ,
   //lastUpdated: ,
   editLink: {
-    repo: 'vuejs/docs',
+    repo: myrepo,
     text: 'Edit this page on GitHub',
   },
   footer: {
