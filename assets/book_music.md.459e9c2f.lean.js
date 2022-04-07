@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a}from"./app.7b568dd6.js";const u='{"title":"Music Markdown-it plugin?","description":"","frontmatter":{},"headers":[],"relativePath":"book/music.md"}',s={},n=a("",15),p=[n];function r(i,c,_,l,d,h){return o(),e("div",null,p)}var k=t(s,[["render",r]]);export{u as __pageData,k as default};
