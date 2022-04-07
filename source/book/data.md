@@ -20,5 +20,3 @@ const { page } = useData()
 <pre> {{ page }} </pre>
 <pre>  user  </pre>
 
-[About](./about.md) |
-[Home](./index.md)

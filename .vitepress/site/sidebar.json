@@ -8,19 +8,19 @@
       },
       {
         "text": "About",
-        "link": "/about"
+        "link": "/book/about"
       },
       {
         "text": "Demo",
-        "link": "/demo"
+        "link": "/book/demo"
       },
       {
         "text": "Music",
-        "link": "/music"
+        "link": "/book/music"
       },
       {
         "text": "Data",
-        "link": "/data"
+        "link": "/book/data"
       },
       {
         "text": "Book",

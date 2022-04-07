@@ -1,5 +1,5 @@
 ---
-home: false
+home: true
 
 heroImage: /images/pix1.jpg
 heroAlt: Logo image
@@ -7,7 +7,7 @@ heroText: A Simple Vitepress
 tagline: Hero subtitle
 
 actionText: Get Started
-actionLink: /about.md
+actionLink: /book/about
 
 features:
   - title: Simplicity First
@@ -24,10 +24,5 @@ footer: MIT Licensed | Copyright © 2019-present Evan You
 ---
 
 # Hello Vitepress {.special}
-
-* [About](/about.md)
-* [Demo](/demo.md)
-* [Music](/music.md)
-* [Get Started](/book/getting_started.md)
 
 ![](/images/pix2.jpg){width=250}
