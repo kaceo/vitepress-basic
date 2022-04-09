@@ -6,7 +6,7 @@ tagline: Hero subtitle
 heroAlt: Logo image
 heroText: A Simple Vitepress
 actionText: Get Started
-actionLink: /pages/about.html
+actionLink: /about.html
 heroImage: /pix1.jpg
 
 features:
