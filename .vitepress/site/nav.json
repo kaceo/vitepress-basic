@@ -1,22 +1,22 @@
 [
   {
-    "text": "🏡Home",
-    "link": "/"
+    "text": "🏡 Home", "link": "/"
   },
   {
-    "text": "🔖Tags",
-    "link": "/tags"
+    "text": "🔖 Tags", "link": "/pages/tags"
   },
   {
-    "text": "📃Archives",
-    "link": "/archives"
+    "text": "📃 Archives", "link": "/pages/archives"
   },
   {
     "text": "About",
-    "link": "/about"
-  },
-  {
-    "text": "Github",
-    "link": "https://github.com/"
+    "items": [
+      {
+        "text": "About", "link": "/pages/about"
+      },
+      {
+        "text": "Github", "link": "https://github.com/"
+      }
+    ]
   }
 ]

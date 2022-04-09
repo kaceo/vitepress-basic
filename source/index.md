@@ -1,13 +1,13 @@
 ---
 home: true
+sidebar: false
 
-heroImage: /images/pix1.jpg
+tagline: Hero subtitle
 heroAlt: Logo image
 heroText: A Simple Vitepress
-tagline: Hero subtitle
-
 actionText: Get Started
-actionLink: /book/about
+actionLink: /pages/about.html
+heroImage: /pix1.jpg
 
 features:
   - title: Simplicity First
@@ -22,7 +22,17 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 
 ---
+<script setup>
+import Smalldeck from '@/vue/components/smalldeck.vue'
+</script>
+
 
 # Hello Vitepress {.special}
 
-![](/images/pix2.jpg){width=250}
+<Smalldeck />
+
+End of events
+
+![](/pix1.jpg){width=100}
+
+

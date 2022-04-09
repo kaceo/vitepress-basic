@@ -1,4 +1,17 @@
-# About Us
+---
+title: About Us And You
+editLink: true
+head:
+  - - meta
+    - name: description
+      content: hello
+  - - meta
+    - name: keywords
+      content: super SEO
+
+---
+
+# {{ $frontmatter.title }}
 
 What do you want to know?
 

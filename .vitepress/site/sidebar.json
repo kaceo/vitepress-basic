@@ -8,23 +8,27 @@
       },
       {
         "text": "About",
-        "link": "/book/about"
+        "link": "/pages/about"
       },
       {
         "text": "Demo",
-        "link": "/book/demo"
+        "link": "/pages/demo"
       },
       {
         "text": "Music",
-        "link": "/book/music"
+        "link": "/pages/music"
       },
       {
         "text": "Data",
-        "link": "/book/data"
+        "link": "/pages/data"
       },
       {
-        "text": "Book",
-        "link": "/book/getting_started"
+        "text": "Getting Started",
+        "link": "/book/start"
+      },
+      {
+        "text": "First Post",
+        "link": "/posts/first-post"
       }
     ]
   },

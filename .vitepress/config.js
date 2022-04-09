@@ -1,3 +1,4 @@
+import path from 'path'
 import { defineConfig } from 'vitepress'
 
 import nav from './site/nav.json'
@@ -19,7 +20,7 @@ const base = '/vitepress-basic/'
 const myrepo = 'kaceo'+base
 //const base = process.env.BASE || '/'
 
-
+//const getPages = require("./utils/pages.js")
 
 export default defineConfig({
   base,
@@ -36,6 +37,7 @@ export default defineConfig({
   //========================================
   //site constants
   //extends: ,
+  //dest: 'public',
   title: 'Demo Vitepress' ,
   description: 'Simple Vite static site generator.',
   //locales: ,
@@ -51,10 +53,26 @@ export default defineConfig({
     },
     copyright: `Copyright © 2022-${new Date().getFullYear()} Mr Big`
   },
+
+  //========================================
+  // themes
   head,
   themeConfig: {
     nav,
     sidebar,
+    //pages: await getPages(),
+    //posts: await getPosts(),
+    //pageSize: 2,
+    //website: 'mywebsite',
+    //comment: {
+    //  repo: 'name/repo',
+    //  themes: 'github-light',
+    //  issueTerm: 'pathname',
+    //},
+    //author: 'someone',
+    //search: true,
+    //displayAllHeaders: true
+    //logo: '/favicon.ico'
   },
 
   //========================================
@@ -63,20 +81,27 @@ export default defineConfig({
     lineNumbers: true,
     anchor: { permalink: false },
     toc: { includeLevel: [1, 2] },
+    linkify: false,
     config: (md) => {
-      md
-      .use(fa)
-      .use(dl)
+      md.use(fa)
+      md.use(dl)
     },
   },
   //vite
   vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '../source'),
+      },
+    },
     plugins: [
       content(),
       //vql(),
       //radar(analytics),
       //compress(),
     ],
+    // build: {minify: false},
   },
+  //optimizeDeps: {keepName: true},
 })
 

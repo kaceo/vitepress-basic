@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@urql/vue": "0.4.0",
+    "axios": "^0.26.1",
     "graphql": "15.5.0",
     "pinia": "^2.0.13"
   },
@@ -39,7 +40,9 @@
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23",
     "sass": "^1.49.7",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "vite-plugin-simple-gql": "latest",
+    "vite-plugin-pwa": "latest"
   },
   "pnpm": {
     "peerDependencyRules": {
