@@ -2,7 +2,6 @@ import DefaultTheme from 'vitepress/theme'
 import './styles/custom.css'
 //import './styles/tailwind.postcss'
 
-//import { pinia } from '../../source/vue/stores'
 
 import CustomLayout from './components/CustomLayout.vue'
 //import NewLayout from './components/NewLayout.vue'
@@ -12,6 +11,7 @@ import CustomLayout from './components/CustomLayout.vue'
 //import Comment from './components/Comment.vue'
 //import Player from '@/vue/components/player.vue'
 
+import { stores } from '~/app/stores'
 
 export default {
   ...DefaultTheme,
@@ -20,7 +20,7 @@ export default {
 
     //==================================
     // register vue plugins
-    //app.use(pinia)
+    app.use(stores) //init stores based on pinia
 
     //==================================
     // register global compoment

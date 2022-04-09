@@ -3,16 +3,16 @@
     "text": "🏡 Home", "link": "/"
   },
   {
-    "text": "🔖 Tags", "link": "/pages/tags"
+    "text": "🔖 Tags", "link": "/tags"
   },
   {
-    "text": "📃 Archives", "link": "/pages/archives"
+    "text": "📃 Archives", "link": "/archives"
   },
   {
     "text": "About",
     "items": [
       {
-        "text": "About", "link": "/pages/about"
+        "text": "About", "link": "/about"
       },
       {
         "text": "Github", "link": "https://github.com/"

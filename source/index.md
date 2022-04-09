@@ -22,17 +22,8 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 
 ---
-<script setup>
-import Smalldeck from '@/vue/components/smalldeck.vue'
-</script>
-
-
-# Hello Vitepress {.special}
-
-<Smalldeck />
 
 End of events
 
-![](/pix1.jpg){width=100}
 
 

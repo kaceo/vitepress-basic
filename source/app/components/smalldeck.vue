@@ -1,49 +1,63 @@
 <template lang="pug">
 .block
-  .rev DATA
-  pre {{ events }}
-
+  .rev DATA {{ msg }}
+  i Getters
+  div( v-for="g in getPosts" :key="g.id"
+  ) {{g.id}} {{g.name}}
+  hr
+  i Actions
+  div( v-for="g in posts" :key="g.id"
+  ) {{g.id}} {{g.name}}
 </template>
-
-<style scoped>
-.block {
-  border: 2px solid #cc9;
-  margin: 8px;
-  overflow: hidden;
-}
-.rev {
-  background-color: #9FF;
-  font-weight: bold;
-  text-align: center;
-}
-</style>
-
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData, withBase } from 'vitepress'
-import Deal from '@/vue/components/deal.vue'
-import dealer from '@/vue/services/dealer.js'
+import { usePostStore } from '~/app/stores/post'
+const store = usePostStore()
 
-const url = 'https://jsonplaceholder.typicode.com/posts'
 
-const events = ref([])
+// reactive string
+const msg = ref('Welcome to state manager')
+// states
+const posts = computed(() => {
+  return store.posts
+})
+// getters
+const getPosts = computed(() => {
+  return store.getPosts
+})
+// actions
+onMounted(() => {
+  store.fetchPosts()
+})
 
-events.value = await dealer.getEvents()
-.then ((res) => res.data)
+
 
 
 /*
+//import { useData, withBase } from 'vitepress'
+//import Player from './player.vue';
+//import Deal from '~/app/components/deal.vue'
+//import dealer from '~/app/services/dealer'
+const events = ref([])
+const url = 'https://jsonplaceholder.typicode.com/posts'
+
+events.value =
 {
   name: "Rick Sanchez",
   status: "Alive",
   image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
   id: "hello",
 }
-*/
+{
+  name: "Rick Sanchez",
+  status: "Alive",
+  image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+  id: "hello",
+}
 
-
-/*
+events.value = await dealer.getEvents()
+.then ((res) => res.data)
 await dealer.getEvents()
 .then((a) => a.json()
 
@@ -61,10 +75,6 @@ const acard= {
   image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
   id: "hello",
 }
-
-
-
-
 
 const loading=ref(true)
 const error=ref(null)
@@ -111,16 +121,24 @@ events.value =
 
 //await dealer.getEvents()
 
-
 const posts =
 await fetch(url).then((a)=>a.json())
-
-
 
 */
 //<Deal :event="acard" />
 //<Deal v-for="event in events" :key="event.id" :event="event" />
 //const { frontmatter } = useData()
-
-
 </script>
+
+<style scoped>
+.block {
+  border: 2px solid #cc9;
+  margin: 8px;
+  overflow: hidden;
+}
+.rev {
+  background-color: #9FF;
+  font-weight: bold;
+  text-align: center;
+}
+</style>

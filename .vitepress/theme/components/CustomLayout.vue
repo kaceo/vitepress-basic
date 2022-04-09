@@ -17,7 +17,7 @@ Layout
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 const { Layout } = DefaultTheme
-import nut from '@/vue/nut.js'
+import nut from '~/app/nut.js'
 
 /*
 slot names:

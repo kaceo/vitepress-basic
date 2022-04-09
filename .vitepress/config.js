@@ -25,7 +25,7 @@ const myrepo = 'kaceo'+base
 export default defineConfig({
   base,
   srcDir: 'source',
-  srcExclude: ['vue/**/*.md'] ,
+  srcExclude: ['app/**/*'] ,
   outDir: 'dist',
   lang: 'en-US',
   shouldPreload: false,
@@ -91,7 +91,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '../source'),
+        '~': path.resolve(__dirname, '../source'),
       },
     },
     plugins: [

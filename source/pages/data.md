@@ -6,7 +6,7 @@ author: Mr Jack
 keywords: [Life, Money]
 ---
 <script setup>
-//import { useUserStore } from './vue/stores/user'
+//import { useUserStore } from '~/app/stores/user'
 //const user = useUserStore()
 //Logged in as {{ user.name }}
 
