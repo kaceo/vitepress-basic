@@ -81,6 +81,10 @@ export default defineConfig({
     //displayAllHeaders: true
     //logo: siteconfig.logo,
     // siteconfig.socials???
+    monkey: {
+      ape: "John",
+      utan: "Orang",
+    },
   },
 
   //========================================

@@ -12,7 +12,6 @@ __Advertisement :)__
 You will like those projects!
 
 ---
-<div class="prose">
 
 
 
@@ -254,4 +253,3 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 :::
 
 
-</div>

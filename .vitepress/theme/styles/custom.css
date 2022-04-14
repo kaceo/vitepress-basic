@@ -1,3 +1,4 @@
-.special {
-  color: #c1a;
+.content,
+.home-content {
+  @apply prose;
 }

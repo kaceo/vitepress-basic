@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-//import './styles/custom.css'
 import './styles/tailwind.postcss'
+import './styles/custom.css'
 
 
 import CustomLayout from './components/CustomLayout.vue'
