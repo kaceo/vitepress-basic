@@ -5,18 +5,8 @@ thumbnail: something
 author: Mr Jack
 keywords: [Life, Money]
 ---
-<script setup>
-//import { useUserStore } from '~/app/stores/user'
-//const user = useUserStore()
-//Logged in as {{ user.name }}
-
-import { useData } from 'vitepress'
-const { page } = useData()
-</script>
 
 # About
 
-
-<pre> {{ page }} </pre>
-<pre>  user  </pre>
+Hello darkness my old friend
 

@@ -2,6 +2,15 @@
 ---
 # Music Markdown-it plugin?
 
+
+<div class="tabs">
+  <a class="tab tab-bordered">Tab 1</a>
+  <a class="tab tab-bordered tab-active">Tab 2</a>
+  <a class="tab tab-bordered">Tab 3</a>
+</div>
+
+
+
 c1:                    Am
 l1: All the leaves are brown
 

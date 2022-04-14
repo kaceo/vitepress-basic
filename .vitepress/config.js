@@ -1,11 +1,6 @@
 import path from 'path'
 import { defineConfig } from 'vitepress'
 
-import nav from './site/nav.json'
-import sidebar from './site/sidebar.json'
-import head from './site/head.json'
-import analytics from './site/analytics.json'
-
 import content from '@originjs/vite-plugin-content'
 //import vql from 'vite-plugin-vue-gql'
 import radar from 'vite-plugin-radar'
@@ -16,11 +11,23 @@ import compress from 'vite-plugin-compress'
 const fa = require('@gerhobbelt/markdown-it-fontawesome')
 const dl = require('markdown-it-deflist')
 
-const base = '/vitepress-basic/'
-const myrepo = 'kaceo'+base
-//const base = process.env.BASE || '/'
-
 //const getPages = require("./utils/pages.js")
+
+const SOURCE = '../source'
+import siteconfig from '../source/app/site.config'
+
+//import nav from './site/nav.json'
+//import sidebar from './site/sidebar.json'
+//const nav = siteconfig.navigation
+//const sidebar = siteconfig.sidebar
+//const socials = siteconfig.socials
+//import head from './site/head.json'
+//import analytics from './site/analytics.json'
+
+const myrepo = siteconfig.git.owner+'/'+siteconfig.git.repo
+
+//const base = process.env.BASE || '/'
+const base = '/'+siteconfig.git.repo+'/'
 
 export default defineConfig({
   base,
@@ -38,8 +45,8 @@ export default defineConfig({
   //site constants
   //extends: ,
   //dest: 'public',
-  title: 'Demo Vitepress' ,
-  description: 'Simple Vite static site generator.',
+  title: siteconfig.title,
+  description: siteconfig.description,
   //locales: ,
   //lastUpdated: ,
   editLink: {
@@ -56,10 +63,10 @@ export default defineConfig({
 
   //========================================
   // themes
-  head,
+  head: siteconfig.head,
   themeConfig: {
-    nav,
-    sidebar,
+    nav: siteconfig.navigation,
+    sidebar: siteconfig.sidebar,
     //pages: await getPages(),
     //posts: await getPosts(),
     //pageSize: 2,
@@ -72,7 +79,8 @@ export default defineConfig({
     //author: 'someone',
     //search: true,
     //displayAllHeaders: true
-    //logo: '/favicon.ico'
+    //logo: siteconfig.logo,
+    // siteconfig.socials???
   },
 
   //========================================
@@ -91,13 +99,13 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '~': path.resolve(__dirname, '../source'),
+        '~': path.resolve(__dirname, SOURCE),
       },
     },
     plugins: [
       content(),
       //vql(),
-      //radar(analytics),
+      //radar(siteconfig.analytics),
       //compress(),
     ],
     // build: {minify: false},

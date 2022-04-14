@@ -8,6 +8,16 @@
   i Actions
   div( v-for="g in posts" :key="g.id"
   ) {{g.id}} {{g.name}}
+  hr
+  .avatar
+    .w-24.rounded-full
+      img(src="https://api.lorem.space/image/face?hash=92310")
+  hr
+  .mockup-phone.border-primary
+    .camera
+    .display
+      .artboard.artboard-demo.phone-1 Hi.
+
 </template>
 
 <script setup>
@@ -128,9 +138,7 @@ await fetch(url).then((a)=>a.json())
 //<Deal :event="acard" />
 //<Deal v-for="event in events" :key="event.id" :event="event" />
 //const { frontmatter } = useData()
-</script>
-
-<style scoped>
+/*
 .block {
   border: 2px solid #cc9;
   margin: 8px;
@@ -140,5 +148,9 @@ await fetch(url).then((a)=>a.json())
   background-color: #9FF;
   font-weight: bold;
   text-align: center;
-}
-</style>
+
+
+
+*/
+</script>
+

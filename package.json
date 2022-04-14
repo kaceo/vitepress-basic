@@ -6,27 +6,32 @@
   "devDependencies": {
     "@gerhobbelt/markdown-it-fontawesome": "0.3.0-3",
     "@originjs/vite-plugin-content": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "daisyui": "^2.13.6",
     "markdown-it-deflist": "^2.1.0",
+    "postcss": "^8.4.12",
     "pug": "^3.0.2",
     "sass": "^1.50.0",
+    "tailwindcss": "^3.0.24",
     "vite-plugin-compress": "^2.1.1",
     "vite-plugin-radar": "^0.4.2",
     "vite-plugin-vue-gql": "^0.2.10",
-    "vitepress": "^0.22.3",
-    "vue": "^3.2.31"
+    "vitepress": "^0.22.3"
   },
   "dependencies": {
     "@urql/vue": "0.4.0",
     "axios": "^0.26.1",
     "graphql": "15.5.0",
-    "pinia": "^2.0.13"
+    "pinia": "^2.0.13",
+    "vue": "^3.2.32"
   },
   "scripts": {
     "dev": "vitepress dev --host 0.0.0.0",
     "build": "vitepress build ",
     "serve": "vitepress serve "
   },
-  "xxxxpostcss": {
+  "postcss": {
     "plugins": {
       "tailwindcss": {},
       "autoprefixer": {}
@@ -36,9 +41,6 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "v-press-plus": "^0.2.3",
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.23",
     "sass": "^1.49.7",
     "rimraf": "^3.0.2",
     "vite-plugin-simple-gql": "latest",

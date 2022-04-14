@@ -1,18 +1,28 @@
+const daisyui = require("daisyui")
+const typography = require("@tailwindcss/typography")
+
 module.exports = {
   content: [
-    './source/**/*.{js,jsx,ts,tsx,vue,html}'
+    './source/**/*.{js,vue}',
+    './.vitepress/**/*.{js,vue}'
   ],
-}
-
-/*
-module.exports = {
-  content: [],
+  plugins: [
+    typography,
+    daisyui,
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  daisyui: {
+    styled: true,
+    themes: true,
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "dark",
+  },
+  separator: '_',  // pug cannot use ":"
+
 }
-    './.vitepress/**/*.{js,ts,vue}',
-  //  './src/**/*.md',
-  //  "./src/**/*.{html,js}",
-*/

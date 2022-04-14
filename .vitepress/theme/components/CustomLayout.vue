@@ -1,17 +1,18 @@
 <template lang="pug">
-Layout
-  template(#sidebar-top)
-    b
-      i {{ nut.text1 }} SPECIAL SIDEBAR TOP
-  template(#home-hero)
-    b
-      i {{ nut.text2 }} SPECIAL HERO
-  template(#home-footer)
-    b
-      i SPECIAL HOME FOOT
-  template(#page-bottom)
-    b
-      i SPECIAL PAGE BOTTOM
+div
+  Layout
+    template(#sidebar-top)
+      b
+        i {{ nut.text1 }} SPECIAL SIDEBAR TOP
+    template(#home-hero)
+      b
+        i {{ nut.text2 }} SPECIAL HERO
+    template(#home-footer)
+      b
+        i SPECIAL HOME FOOT
+    template(#page-bottom)
+      b
+        i SPECIAL PAGE BOTTOM
 </template>
 
 <script setup>
