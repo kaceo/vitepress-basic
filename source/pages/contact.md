@@ -47,11 +47,3 @@ Do you like this?
 
 Hello World! :fa-flag:
 
-- [:fab-facebook: Google](https://www.google.com/)
-- [:fas-bell: GitHub](https://github.com/)
-
-Hello World! :fas-flag:
-
-- [:fab-google: Google](https://www.google.com/)
-- [:fab-github: GitHub](https://github.com/)
-

@@ -12,7 +12,7 @@ __Advertisement :)__
 You will like those projects!
 
 ---
-
+<div class="prose">
 
 
 
@@ -22,6 +22,7 @@ You will like those projects!
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
+
 
 
 ## Horizontal Rules
@@ -152,6 +153,8 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 ## Images
 
 ![Minion](https://octodex.github.com/images/minion.png)
+{.w-48 .border-2 .border-indigo-600}
+
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 Like links, Images also have a footnote style syntax
@@ -249,3 +252,6 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+
+
+</div>

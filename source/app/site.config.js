@@ -40,6 +40,9 @@ function navigation() {return [
         "text": "About", "link": "/about"
       },
       {
+        "text": "Demo", "link": "/pages/demo"
+      },
+      {
         "text": "Github", "link": "https://github.com/"
       }
     ]
@@ -58,10 +61,6 @@ function sidebar() {return [
       {
         "text": "About",
         "link": "/about"
-      },
-      {
-        "text": "Demo",
-        "link": "/pages/demo"
       },
       {
         "text": "Music",

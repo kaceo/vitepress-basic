@@ -3,7 +3,8 @@ const typography = require("@tailwindcss/typography")
 
 module.exports = {
   content: [
-    './source/**/*.{js,vue}',
+    './source/**/*.md',
+    './source/app/**/*.{js,vue}',
     './.vitepress/**/*.{js,vue}'
   ],
   plugins: [
