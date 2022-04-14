@@ -12,7 +12,7 @@ head:
 ---
 <script setup>
 import { useData } from 'vitepress'
-const { site, page, theme } = useData()
+const { site, page, theme, frontmatter } = useData()
 </script>
 
 # Good Boy Here!
@@ -23,8 +23,11 @@ What is http://localhost:3000
 __SITE__
 <pre>{{ site }}</pre>
 
+__THEME__
+<pre>{{ theme }}</pre>
+
 __PAGE__
 <pre>{{ page }}</pre>
 
-__THEME__
-<pre>{{ theme }}</pre>
+__FRONTMATTER__
+<pre>{{ frontmatter }}</pre>

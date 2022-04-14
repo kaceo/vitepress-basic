@@ -13,11 +13,14 @@ div
     template(#page-bottom)
       b
         i SPECIAL PAGE BOTTOM
+  //Footer
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 const { Layout } = DefaultTheme
+
+//import Footer from './footer.vue'
 import nut from '~/app/nut.js'
 
 /*
