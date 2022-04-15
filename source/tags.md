@@ -4,13 +4,10 @@ title: Tags
 description: Tags
 sidebar: false
 ---
-Tags
 
 <script setup>
-import Smalldeck from '~/app/components/smalldeck.vue'
+import Tags from '~/app/templates/tags.vue'
 </script>
 
+<Tags/>
 
-# Hello Vitepress {.special}
-
-<Smalldeck />

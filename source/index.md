@@ -32,4 +32,10 @@ What is this ?
 
 End of events
 
+[/g](/g)
+
+[/g#first](/g#first)
+
+[/g#first/second](/g#first/second)
+
 

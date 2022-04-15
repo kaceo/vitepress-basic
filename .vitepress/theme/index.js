@@ -12,6 +12,7 @@ import CustomLayout from './components/CustomLayout.vue'
 //import Player from '@/vue/components/player.vue'
 
 import { stores } from '~/app/stores'
+import Xcard from '~/app/components/xcard.vue'
 
 export default {
   ...DefaultTheme,
@@ -29,5 +30,6 @@ export default {
     //app.component('Page', Page)
     //app.component('Comment', Comment)
     //app.component('Player', Player)
+    app.component('Xcard', Xcard)
   },
 }

@@ -10,3 +10,7 @@ keywords: [Life, Money]
 
 Hello darkness my old friend
 
+![](/pix1.jpg){width=250}
+
+![](./pix3.jpg){width=250}
+

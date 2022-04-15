@@ -4,4 +4,10 @@ title: Archive
 description: Archive
 sidebar: false
 ---
-Archives/
+
+<script setup>
+import Archives from '~/app/templates/archives.vue'
+</script>
+
+<Archives/>
+

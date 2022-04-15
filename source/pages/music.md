@@ -1,7 +1,11 @@
 ---
 ---
-# Music Markdown-it plugin?
+<script setup>
+import Smalldeck from '~/app/components/smalldeck.vue'
+import Xcard from '~/app/components/xcard.vue'
+</script>
 
+# Music Markdown-it plugin?
 
 <div class="tabs">
   <a class="tab tab-lifted ">Tab 1</a>
@@ -10,10 +14,8 @@
 </div>
 
 
-
 c1:                    Am
 l1: All the leaves are brown
-
 
 
 
@@ -64,9 +66,17 @@ tabstave
   text :w, |#segno, ,|, :hd, , #tr
 :::
 
-![](/pix1.jpg){width=250}
 
-![](./pix3.jpg){width=250}
+---
 
+# Hello Vitepress {.special}
+
+<Smalldeck />
+
+
+<Xcard title="Hello Mr Big"
+src="https://api.lorem.space/image/shoes?w=400&h=225"
+actiontext="Sell Now"
+>The rain in Spain stays *mainly* in the Plains!</Xcard>
 
 

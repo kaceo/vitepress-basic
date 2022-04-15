@@ -32,7 +32,10 @@ const base = '/'+siteconfig.git.repo+'/'
 export default defineConfig({
   base,
   srcDir: 'source',
-  srcExclude: ['app/**/*'] ,
+  srcExclude: [
+    'app/**/*', // vue+js
+    'templates/**/*', // page templates
+  ],
   outDir: 'dist',
   lang: 'en-US',
   shouldPreload: false,
