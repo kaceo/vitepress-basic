@@ -13,8 +13,6 @@ footer.footer.footer-center.bg-base-200.text-base-content.p-4
     a
       i.fa-lg.fab.fa-facebook
 
-
-
 </template>
 
 <script setup>

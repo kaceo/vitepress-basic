@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev --host 0.0.0.0",
+    "build": "vitepress build ",
+    "serve": "vitepress serve "
+  },
   "devDependencies": {
     "@gerhobbelt/markdown-it-fontawesome": "0.3.0-3",
     "@originjs/vite-plugin-content": "^1.0.1",
@@ -26,27 +31,11 @@
     "pinia": "^2.0.13",
     "vue": "^3.2.32"
   },
-  "scripts": {
-    "dev": "vitepress dev --host 0.0.0.0",
-    "build": "vitepress build ",
-    "serve": "vitepress serve "
-  },
   "postcss": {
     "plugins": {
       "tailwindcss": {},
       "autoprefixer": {}
     }
-  },
-  "useless": {
-    "postcss-import": {},
-    "tailwindcss/nesting": {},
-  "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-regular-svg-icons": "^6.1.1",
-    "v-press-plus": "^0.2.3",
-    "sass": "^1.49.7",
-    "rimraf": "^3.0.2",
-    "vite-plugin-simple-gql": "latest",
-    "vite-plugin-pwa": "latest"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -59,5 +48,16 @@
         "svgo"
       ]
     }
+  },
+  "useless": {
+    "postcss-import": {},
+    "tailwindcss/nesting": {},
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "v-press-plus": "^0.2.3",
+    "sass": "^1.49.7",
+    "rimraf": "^3.0.2",
+    "vite-plugin-simple-gql": "latest",
+    "vite-plugin-pwa": "latest"
   }
 }

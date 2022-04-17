@@ -28,10 +28,11 @@ function navigation() {return [
     "text": "🏡 Home", "link": "/"
   },
   {
-    "text": "🔖 Tags", "link": "/tags"
-  },
-  {
-    "text": "📃 Archives", "link": "/archives"
+    "text": "Misc",
+    "items": [
+      { "text": "🔖 Tags", "link": "/tags" },
+      { "text": "📃 Archives", "link": "/archives" },
+    ]
   },
   {
     "text": "About",

@@ -1,3 +1,163 @@
+<script setup lang="ts">
+import { ref, computed, watch, defineAsyncComponent } from 'vue'
+import { useRoute, useData } from 'vitepress'
+
+
+import { isSideBarEmpty, getSideBarConfig } from './support/sideBar'
+
+// components
+import Home from './components/Home.vue'
+import NavBar from './components/NavBar.vue'
+import SideBar from './components/SideBar.vue'
+import Page from './components/Page.vue'
+
+
+const NoopComponent = () => null
+const CarbonAds = __CARBON__
+  ? defineAsyncComponent(() => import('./components/CarbonAds.vue'))
+  : NoopComponent
+const BuySellAds = __BSA__
+  ? defineAsyncComponent(() => import('./components/BuySellAds.vue'))
+  : NoopComponent
+const AlgoliaSearchBox = __ALGOLIA__
+  ? defineAsyncComponent(() => import('./components/AlgoliaSearchBox.vue'))
+  : NoopComponent
+
+
+// generic state
+const route = useRoute()
+const { site, page, theme, frontmatter } = useData()
+
+// custom layout
+const isCustomLayout = computed(() => !!frontmatter.value.customLayout)
+
+// home
+const enableHome = computed(() => !!frontmatter.value.home)
+
+// automatic multilang check for AlgoliaSearchBox
+const isMultiLang = computed(() => Object.keys(site.value.langs).length > 1)
+
+// navbar
+const showNavbar = computed(() => {
+  const themeConfig = theme.value
+  if (frontmatter.value.navbar === false || themeConfig.navbar === false) {
+    return false
+  }
+  return (
+    site.value.title || themeConfig.logo || themeConfig.repo || themeConfig.nav
+  )
+})
+
+// sidebar
+const openSideBar = ref(false)
+const showSidebar = computed(() => {
+  if (frontmatter.value.home || frontmatter.value.sidebar === false) {
+    return false
+  }
+  return !isSideBarEmpty(
+    getSideBarConfig(theme.value.sidebar, route.data.relativePath)
+  )
+})
+
+const toggleSidebar = (to?: boolean) => {
+  openSideBar.value = typeof to === 'boolean' ? to : !openSideBar.value
+}
+
+const hideSidebar = toggleSidebar.bind(null, false)
+
+// close the sidebar when navigating to a different location
+watch(route, hideSidebar)
+// TODO: route only changes when the pathname changes
+// listening to hashchange does nothing because it's prevented in router
+// page classes
+
+const pageClasses = computed(() => {
+  return [
+    {
+      'no-navbar': !showNavbar.value,
+      'sidebar-open': openSideBar.value,
+      'no-sidebar': !showSidebar.value
+    }
+  ]
+})
+
+/*
+//List of data created:
+Components:
+  Content <-- Vitepress
+  Debug <-- Vitepress
+  Home,  (#hero, #features, #footer)
+  NavBar, (#search)
+  SideBar, (#sidebar-top, #sidebar-bottom)
+  Page (#top, #bottom)
+  CarbonAds,
+  BuySellAds,
+  AlgoliaSearchBox
+States Computed:
+  isCustomLayout,
+  enableHome,
+  isMultiLang,
+  showNavbar,
+  showSidebar,
+  pageClasses, (either: no-navbar, sidebar-open, no-sidebar)
+States:
+  openSideBar,
+  toggleSidebar(to),
+  hideSidebar,
+Watch:
+  route ===> hideSidebar
+==========
+Template parts:
+.theme.{pageClasses}
+  NavBar
+    ToggleSideBarButton
+    NavBarTitle
+    NavLinks
+    #search
+      navbar-search
+        AlgoliaSearchBox
+  SideBar
+    #sidebar-top
+      sidebar-top
+    SideBarLinks
+    #sidebar-bottom)
+      sidebar-bottom
+  .sidebar-mask @click(toggleSidebar)
+  Content
+  home
+    Home
+      HomeHero
+        NavLink
+      #hero
+        home-hero
+      HomeFeatures
+      Content
+      #features
+        home-features
+      HomeFooter
+      #footer
+        home-footer
+  Page
+    #top
+      page-top-ads
+        CarbonAds
+      page-top
+    Content
+    PageFooter
+      EditLink
+      LastUpdated
+    NextAndPrevLinks
+      ArrowLeft
+      ArrowRight
+    #bottom
+      page-bottom
+      page-bottom-ads
+        BuySellAds
+  Debug
+*/
+</script>
+
+
 <template lang="pug">
 .theme(:class="pageClasses")
 
@@ -55,77 +215,6 @@ Debug
 </template>
 
 
-<script setup lang="ts">
-import { ref, computed, watch, defineAsyncComponent } from 'vue'
-import { useRoute, useData } from 'vitepress'
-
-import { isSideBarEmpty, getSideBarConfig } from './support/sideBar'
-
-// components
-import Home from './components/Home.vue'
-import NavBar from './components/NavBar.vue'
-import SideBar from './components/SideBar.vue'
-import Page from './components/Page.vue'
-
-const NoopComponent = () => null
-const CarbonAds = __CARBON__
-  ? defineAsyncComponent(() => import('./components/CarbonAds.vue'))
-  : NoopComponent
-const BuySellAds = __BSA__
-  ? defineAsyncComponent(() => import('./components/BuySellAds.vue'))
-  : NoopComponent
-const AlgoliaSearchBox = __ALGOLIA__
-  ? defineAsyncComponent(() => import('./components/AlgoliaSearchBox.vue'))
-  : NoopComponent
-
-// generic state
-const route = useRoute()
-const { site, page, theme, frontmatter } = useData()
-// custom layout
-const isCustomLayout = computed(() => !!frontmatter.value.customLayout)
-// home
-const enableHome = computed(() => !!frontmatter.value.home)
-// automatic multilang check for AlgoliaSearchBox
-const isMultiLang = computed(() => Object.keys(site.value.langs).length > 1)
-// navbar
-const showNavbar = computed(() => {
-  const themeConfig = theme.value
-  if (frontmatter.value.navbar === false || themeConfig.navbar === false) {
-    return false
-  }
-  return (
-    site.value.title || themeConfig.logo || themeConfig.repo || themeConfig.nav
-  )
-})
-// sidebar
-const openSideBar = ref(false)
-const showSidebar = computed(() => {
-  if (frontmatter.value.home || frontmatter.value.sidebar === false) {
-    return false
-  }
-  return !isSideBarEmpty(
-    getSideBarConfig(theme.value.sidebar, route.data.relativePath)
-  )
-})
-const toggleSidebar = (to?: boolean) => {
-  openSideBar.value = typeof to === 'boolean' ? to : !openSideBar.value
-}
-const hideSidebar = toggleSidebar.bind(null, false)
-// close the sidebar when navigating to a different location
-watch(route, hideSidebar)
-// TODO: route only changes when the pathname changes
-// listening to hashchange does nothing because it's prevented in router
-// page classes
-const pageClasses = computed(() => {
-  return [
-    {
-      'no-navbar': !showNavbar.value,
-      'sidebar-open': openSideBar.value,
-      'no-sidebar': !showSidebar.value
-    }
-  ]
-})
-</script>
 
 
 <style>

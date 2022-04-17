@@ -33,3 +33,26 @@ export default {
     app.component('Xcard', Xcard)
   },
 }
+
+/*
+// DefaultTheme (vitepress/theme)
+  { Layout, NotFound }
+
+// Auto Glob Install Components
+const modules = import.meta.globEager('../components/ ** / *.vue')
+const components = []
+
+for (const path in modules) {
+  components.push(modules[path].default)
+}
+
+export default {
+  ...DefaultTheme,
+  enhanceApp({ app }) {
+    components.forEach(component => {
+      app.component(component.name, component)
+    })
+  }
+}
+
+*/
