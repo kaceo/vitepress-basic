@@ -73,7 +73,7 @@ function sidebar() {return [
       },
       {
         "text": "Getting Started",
-        "link": "/book/start"
+        "link": "/pages/start"
       },
       {
         "text": "First Post",
@@ -82,24 +82,20 @@ function sidebar() {return [
     ]
   },
   {
-    "text": "Advanced",
+    "text": "Alice",
     "children": [
       {
-        "text": "Frontmatter",
-        "link": "/guide/frontmatter"
+        "text": "Title Page",
+        "link": "/book/alice-00"
       },
       {
-        "text": "Theming",
-        "link": "/guide/theming"
+        "text": "Down the Rabbit-Hole",
+        "link": "/book/alice-01"
       },
       {
-        "text": "API Reference",
-        "link": "/guide/api"
+        "text": "The Pool of Tears",
+        "link": "/book/alice-02"
       },
-      {
-        "text": "Differences from Vuepress",
-        "link": "/guide/differences-from-vuepress"
-      }
     ]
   },
 ]}
