@@ -136,6 +136,10 @@ function sidebar() {return [
         "text": "XII. Alice's Evidence",
         "link": "/book/alice-12"
       },
+      {
+        "text": "Frontispiece Epigraph",
+        "link": "/book/alice-99"
+      },
     ]
   },
 ]}
