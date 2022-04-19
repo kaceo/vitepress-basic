@@ -89,12 +89,52 @@ function sidebar() {return [
         "link": "/book/alice-00"
       },
       {
-        "text": "Down the Rabbit-Hole",
+        "text": "I. Down the Rabbit-Hole",
         "link": "/book/alice-01"
       },
       {
-        "text": "The Pool of Tears",
+        "text": "II. The Pool of Tears",
         "link": "/book/alice-02"
+      },
+      {
+        "text": "III. A Caucus-Race and a Long Tale",
+        "link": "/book/alice-03"
+      },
+      {
+        "text": "IV. The Rabbit Sends in a Little Bill",
+        "link": "/book/alice-04"
+      },
+      {
+        "text": "V. Advice from a Caterpillar",
+        "link": "/book/alice-05"
+      },
+      {
+        "text": "VI. Pig and Pepper",
+        "link": "/book/alice-06"
+      },
+      {
+        "text": "VII. A Mad Tea-Party",
+        "link": "/book/alice-07"
+      },
+      {
+        "text": "VIII. The Queen's Croquet-Ground",
+        "link": "/book/alice-08"
+      },
+      {
+        "text": "IX. The Mock Turtle's Story",
+        "link": "/book/alice-09"
+      },
+      {
+        "text": "X. The Lobster Quadrille",
+        "link": "/book/alice-10"
+      },
+      {
+        "text": "XI. Who Stole the Tarts?",
+        "link": "/book/alice-11"
+      },
+      {
+        "text": "XII. Alice's Evidence",
+        "link": "/book/alice-12"
       },
     ]
   },
