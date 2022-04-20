@@ -86,34 +86,34 @@ The White Rabbit put on his spectacles. “Where shall I begin, please your Maje
 These were the verses the White Rabbit read: ⁠—
 
 > “They told me you had been to her,<br>
-> And mentioned me to him:  <br>
+> &emsp;And mentioned me to him:  <br>
 > She gave me a good character,<br>
-> But said I could not swim.
+> &emsp;But said I could not swim.
 >
 > He sent them word I had not gone  <br>
-> (We know it to be true):  <br>
+> &emsp;(We know it to be true):  <br>
 > If she should push the matter on, <br>
-> What would become of you?
+> &emsp;What would become of you?
 >
 > I gave her one, they gave him two,  <br>
-> You gave us three or more;  <br>
+> &emsp;You gave us three or more;  <br>
 > They all returned from him to you,  <br>
-> Though they were mine before.
+> &emsp;Though they were mine before.
 >
 > If I or she should chance to be <br>
-> Involved in this affair, <br>
+> &emsp;Involved in this affair, <br>
 > He trusts to you to set them free, <br>
-> Exactly as we were.
+> &emsp;Exactly as we were.
 >
 > My notion was that you had been <br>
-> (Before she had this fit) <br>
+> &emsp;(Before she had this fit) <br>
 > An obstacle that came between <br>
-> Him, and ourselves, and it.
+> &emsp;Him, and ourselves, and it.
 >
 > Don’t let him know she liked them best, <br>
-> For this must ever be <br>
+> &emsp;For this must ever be <br>
 > A secret, kept from all the rest, <br>
-> Between yourself and me.”
+> &emsp;Between yourself and me.”
 
 “That’s the most important piece of evidence we’ve heard yet,” said the King, rubbing his hands; “so now let the jury⁠ —”
 

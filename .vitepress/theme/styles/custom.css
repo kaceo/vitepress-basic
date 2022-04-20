@@ -1,4 +1,27 @@
-.content,
-.home-content {
-  @apply prose;
+/*keep the change things*/
+:root {
+
+
+  /*
+  --font-family-base: 'Orelega One', cursive;
+  --c-divider-light: #e2e8f0;
+  --c-divider-dark: rgba(84, 84, 88, 0.48);
+
+  --c-brand: #333;
+  don't forget change the --tag-bg for tags
+  --c-brand-light: #333;
+
+  --font-family-base: 'PingFang SC', 'Microsoft Yahei', sans-serif;
+  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+  --header-height: 3.6rem;
+  --code-bg-color: #52525b;
+
+   pure theme color
+  --li-dot-color: #737373;
+  --title-color: #334155;
+  --date-color: #64748b;
+  --date-font-family: Georgia, sans-serif;
+  --tag-bg: #eff6ff;
+  */
 }

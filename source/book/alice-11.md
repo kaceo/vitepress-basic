@@ -30,9 +30,9 @@ One of the jurors had a pencil that squeaked. This of course, Alice could _not_ 
 On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:⁠ —
 
 > “The Queen of Hearts, she made some tarts,  <br>
-> All on a summer day:  <br>
+> &emsp;All on a summer day:  <br>
 > The Knave of Hearts, he stole those tarts,  <br>
-> And took them quite away!”
+> &emsp;And took them quite away!”
 
 “Consider your verdict,” the King said to the jury.
 
@@ -82,7 +82,7 @@ All this time the Queen had never left off staring at the Hatter, and, just as t
 
 “Give your evidence,” the King repeated angrily, “or I’ll have you executed, whether you’re nervous or not.”
 
-![A hatter stands holding a cup of tea in one hand and a sandwich in the other. He is in his stockinged feet, with his shoes cast aside.](./images/illustration-38.png){.w-full}
+![A hatter stands holding a cup of tea in one hand and a sandwich in the other. He is in his stockinged feet, with his shoes cast aside.](./images/illustration-38.svg){.w-full}
 
 “I’m a poor man, your Majesty,” the Hatter began, in a trembling voice, “⁠— and I hadn’t begun my tea ⁠— not above a week or so ⁠— and what with the bread-and-butter getting so thin⁠ — and the twinkling of the tea⁠ —”
 

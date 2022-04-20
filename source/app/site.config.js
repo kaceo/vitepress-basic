@@ -214,8 +214,21 @@ function head() { return[
     "content": "@"  }
   ],
   [ "meta", { "name": "twitter:card",
-    "content": "summary_large_image"  }
+    "content": "summary_large_image"  },
   ],
+
+  [ "link", { "rel": "preconnect",
+    "href": "https://fonts.googleapis.com" },
+  ],
+  [ "link", { "rel": "preconnect",
+     "href": "https://fonts.gstatic.com",
+     "crossorigin": "crossorigin" },
+  ],
+  [ "link", { "rel": "stylesheet",
+    "href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&family=Orelega+One&family=Source+Serif+Pro:wght@200&display=swap" },
+  ],
+
+
 
   //------------------------------------
   /*

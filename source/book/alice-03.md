@@ -6,7 +6,7 @@ title:  Caucus-Race and a Long Tale
 
 ![A large crowd of creatures stand around listening to a mouse. The creatures include an owl, a dodo, and a crab.](./images/illustration-9.png){.w-full}
 
-They were indeed a queer-looking party that assembled on the bank⁠—the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.
+They were indeed a queer-looking party that assembled on the bank⁠ — the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.
 
 The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life. Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say, “I am older than you, and must know better”; and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said.
 
@@ -75,56 +75,57 @@ The next thing was to eat the comfits: this caused some noise and confusion, as 
 “It _is_ a long tail, certainly,” said Alice, looking down with wonder at the Mouse’s tail; “but why do you call it sad?” And she kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:⁠ —
 
 > “Fury said to<br>
-> a mouse, That<br>
-> he met<br>
-> in the<br>
-> house,<br>
-> ‘Let us<br>
-> both go<br>
-> to law:<br>
-> _I_ will<br>
-> prosecute<br>
-> _you_⁠ —<br>
+> &emsp;a mouse, That<br>
+> &emsp;&emsp;he met<br>
+> &emsp;&emsp;&emsp;in the<br>
+> &emsp;&emsp;&emsp;&emsp;house,<br>
+> &emsp;&emsp;&emsp;&emsp;‘Let us<br>
+> &emsp;&emsp;&emsp;both go<br>
+> &emsp;&emsp;&emsp;to law:<br>
+> &emsp;&emsp;_I_ will<br>
+> &emsp;prosecute<br>
+> *you*⁠ —<br>
 > Come, I’ll<br>
-> take no<br>
-> denial;<br>
-> We must<br>
-> have a<br>
-> trial:<br>
-> For<br>
-> really<br>
-> this<br>
-> morning<br>
-> I’ve<br>
-> nothing<br>
-> to do.’<br>
-> Said the<br>
-> mouse to<br>
-> the cur,<br>
+> &emsp;take no<br>
+> &emsp;&emsp;denial;<br>
+> &emsp;&emsp;&emsp;We must<br>
+> &emsp;&emsp;&emsp;&emsp;have a<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;trial:<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;For<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;really<br>
+> &emsp;&emsp;&emsp;&emsp;this<br>
+> &emsp;&emsp;&emsp;&emsp;morning<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;I’ve<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;nothing<br>
+> &emsp;&emsp;&emsp;&emsp;to do.’<br>
+> &emsp;&emsp;&emsp;Said the<br>
+> &emsp;&emsp;mouse to<br>
+> &emsp;the cur,<br>
 > ‘Such a<br>
-> trial,<br>
-> dear Sir,<br>
-> With no<br>
-> jury or<br>
-> judge,<br>
-> would be<br>
-> wasting<br>
-> our breath.’<br>
-> ‘I’ll be<br>
-> judge,<br>
-> I’ll be<br>
-> jury,’<br>
-> Said <br>
-> cunning<br>
-> old Fury:<br>
-> ‘I’ll try<br>
-> the whole<br>
-> cause,<br>
-> and<br>
-> condemn<br>
-> you<br>
-> to <br>
-> death.’ ”
+> &emsp;&emsp;&emsp;trial,<br>
+> &emsp;&emsp;dear Sir,<br>
+> &emsp;With no<br>
+> &emsp;&emsp;jury or<br>
+> &emsp;&emsp;&emsp;judge,<br>
+> &emsp;&emsp;&emsp;&emsp;would be<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;wasting<br>
+> &emsp;&emsp;&emsp;&emsp;our breath.’<br>
+> &emsp;&emsp;&emsp;‘I’ll be<br>
+> &emsp;&emsp;&emsp;&emsp;judge,<br>
+> &emsp;&emsp;&emsp;I’ll be<br>
+> &emsp;&emsp;jury,’<br>
+> &emsp;&emsp;Said <br>
+> &emsp;&emsp;&emsp;cunning<br>
+> &emsp;&emsp;&emsp;&emsp;old Fury:<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;‘I’ll try<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the whole<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;cause,<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;condemn<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;you<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;to <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;death.’ ”
+
 
 “You are not attending!” said the Mouse to Alice severely. “What are you thinking of?”
 

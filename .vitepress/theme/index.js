@@ -17,6 +17,8 @@ import Xcard from '~/app/components/xcard.vue'
 export default {
   ...DefaultTheme,
   Layout: CustomLayout,
+
+  //call at createApp
   enhanceApp({ app, router, siteData}) {
 
     //==================================
@@ -31,10 +33,37 @@ export default {
     //app.component('Comment', Comment)
     //app.component('Player', Player)
     app.component('Xcard', Xcard)
+
+    //==================================
+    // app = Vue createApp
+    // router = vitepress router
+    // siteData = vitepress data
+    //console.log('Data', siteData)
+    //console.log('Router', router)
+    // router = route, go()
+    //   route = reactive(getDefaultRoute)
+    //   go() =
+
+    //console.log('Router', router)
+    //console.log('Data', siteData)
+
+
   },
 }
 
 /*
+//vuepress (vuerouter only)
+    router.beforeEach((to) => {
+      console.log('before navigation')
+    })
+
+    router.afterEach((to) => {
+      console.log('after navigation')
+    })
+
+
+
+
 // DefaultTheme (vitepress/theme)
   { Layout, NotFound }
 

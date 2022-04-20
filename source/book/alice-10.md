@@ -52,30 +52,32 @@ The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes.
 
 So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:⁠ —
 
+>
 > “ ‘Will you walk a little faster?’ said a whiting to a snail.<br>
-> ‘There’s a porpoise close behind us, and he’s treading on my tail.
->
+> ‘There’s a porpoise close behind us, and he’s treading on my tail.<br>
+><br>
 > See how eagerly the lobsters and the turtles all advance!<br>
-> They are waiting on the shingle ⁠— will you come and join the dance?
->
+> They are waiting on the shingle ⁠— will you come and join the dance?<br>
+><br>
 > Will you, won’t you, will you, won’t you, will you join the dance?<br>
-> Will you, won’t you, will you, won’t you, won’t you join the dance?
->
+> Will you, won’t you, will you, won’t you, won’t you join the dance?<br>
+><br>
 > You can really have no notion how delightful it will be,<br>
 > When they take us up and throw us, with the lobsters, out to sea!’<br>
 > But the snail replied ‘Too far, too far!’ and gave a look askance⁠ —<br>
-> Said he thanked the whiting kindly, but he would not join the dance.
->
+> Said he thanked the whiting kindly, but he would not join the dance.<br>
+><br>
 > Would not, could not, would not, could not, would not join the dance.<br>
-> Would not, could not, would not, could not, could not join the dance.
->
+> Would not, could not, would not, could not, could not join the dance.<br>
+><br>
 > ‘What matters it how far we go?’ his scaly friend replied.<br>
 > ‘There is another shore, you know, upon the other side.<br>
 > The further off from England the nearer is to France⁠ —<br>
-> Then turn not pale, beloved snail, but come and join the dance.
->
+> Then turn not pale, beloved snail, but come and join the dance.<br>
+><br>
 > Will you, won’t you, will you, won’t you, will you join the dance?<br>
 > Will you, won’t you, will you, won’t you, won’t you join the dance?’ ”
+>
 
 “Thank you, it’s a very interesting dance to watch,” said Alice, feeling very glad that it was over at last: “and I do so like that curious song about the whiting!”
 
@@ -193,20 +195,20 @@ The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs,
 > Who for such dainties would not stoop?<br>
 > Soup of the evening, beautiful Soup!<br>
 > Soup of the evening, beautiful Soup!<br>
-> Beau-ootiful Soo-oop!<br>
-> Beau-ootiful Soo-oop!<br>
+> &emsp;Beau-ootiful Soo-oop!<br>
+> &emsp;Beau-ootiful Soo-oop!<br>
 > Soo⁠—oop of the e-e-evening,<br>
-> Beautiful, beautiful Soup!
+> &emsp;Beautiful, beautiful Soup!
 >
 > “Beautiful Soup! Who cares for fish,<br>
 > Game, or any other dish?<br>
 > Who would not give all else for two<br>
 > Pennyworth only of beautiful Soup?<br>
 > Pennyworth only of beautiful Soup?<br>
-> Beau-ootiful Soo-oop!<br>
-> Beau-ootiful Soo-oop!<br>
+> &emsp;Beau-ootiful Soo-oop!<br>
+> &emsp;Beau-ootiful Soo-oop!<br>
 > Soo⁠—oop of the e-e-evening,<br>
-> Beautiful, beauti-**ful soup**!”
+> &emsp;Beautiful, beauti-**ful soup**!”
 
 “Chorus again!” cried the Gryphon, and the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance.
 
@@ -215,4 +217,4 @@ The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs,
 “What trial is it?” Alice panted as she ran; but the Gryphon only answered “Come on!” and ran the faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:⁠ —
 
 > “Soo-oop of the e-e-evening,<br>
-> Beautiful, beautiful Soup!”
+> &emsp;Beautiful, beautiful Soup!”

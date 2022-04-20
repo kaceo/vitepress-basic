@@ -4,9 +4,9 @@ sidebar: false
 
 tagline: Hero subtitle
 heroAlt: Logo image
-heroText: A Simple Vitepress
+heroText: Alice in Wonderland
 actionText: Get Started
-actionLink: /about.html
+actionLink: /book/alice-00
 heroImage: /pix1.jpg
 
 features:

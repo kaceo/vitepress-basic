@@ -11,9 +11,6 @@ module.exports = {
     typography,
     daisyui,
   ],
-  theme: {
-    extend: {},
-  },
   daisyui: {
     styled: true,
     themes: true,
@@ -25,5 +22,13 @@ module.exports = {
     darkTheme: "dark",
   },
   separator: '_',  // pug cannot use ":"
-
+  theme: {
+    //extend: {},
+    //screens: {},
+    //colors: {},
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+  },
 }

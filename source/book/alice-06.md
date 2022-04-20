@@ -79,9 +79,9 @@ Alice glanced rather anxiously at the cook, to see if she meant to take the hint
 “Oh, don’t bother _me_,” said the Duchess; “I never could abide figures!” And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:
 
 > “Speak roughly to your little boy,<br>
-> And beat him when he sneezes:<br>
+> &emsp;And beat him when he sneezes:<br>
 > He only does it to annoy,<br>
-> Because he knows it teases.”
+> &emsp;Because he knows it teases.”
 
 _Chorus_, (In which the cook and the baby joined): ⁠—
 
@@ -90,9 +90,9 @@ _Chorus_, (In which the cook and the baby joined): ⁠—
 While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:⁠ —
 
 > “I speak severely to my boy,<br>
-> I beat him when he sneezes;<br>
+> &emsp;I beat him when he sneezes;<br>
 > For he can thoroughly enjoy<br>
-> The pepper when he pleases!”
+> &emsp;The pepper when he pleases!”
 
 _Chorus._
 
