@@ -17,7 +17,10 @@ She had quite forgotten the Duchess by this time, and was a little startled when
 
 “Tut, tut, child!” said the Duchess. “Everything’s got a moral, if only you can find it.” And she squeezed herself up closer to Alice’s side as she spoke.
 
-![Alice walks side-by-side with an ugly duchess. Alice is holding a flamingo under her arm.](./images/illustration-32.png){.w-full}
+<Xfigure src="./images/illustration-32.png"
+caption="Alice walks side-by-side with an ugly duchess. Alice is holding a flamingo under her arm." />
+
+<!-- ![Alice walks side-by-side with an ugly duchess. Alice is holding a flamingo under her arm.](./images/illustration-32.png){.w-full} -->
 
 Alice did not much like keeping so close to her: first, because the Duchess was _very_ ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin. However, she did not like to be rude, so she bore it as well as she could.
 
@@ -91,7 +94,10 @@ Then the Queen left off, quite out of breath, and said to Alice, “Have you see
 
 As they walked off together, Alice heard the King say in a low voice, to the company generally, “You are all pardoned.” “Come, _that’s_ a good thing!” she said to herself, for she had felt quite unhappy at the number of executions the Queen had ordered.
 
-![A gryphon lies on the ground, asleep. It is a creature with the fore-parts of an eagle and the hind-parts of a lion.](./images/illustration-33.png){.w-full}
+<Xfigure src="./images/illustration-33.png"
+caption="A gryphon lies on the ground, asleep. It is a creature with the fore-parts of an eagle and the hind-parts of a lion." />
+
+<!-- ![A gryphon lies on the ground, asleep. It is a creature with the fore-parts of an eagle and the hind-parts of a lion.](./images/illustration-33.png){.w-full} -->
 
 They very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered”; and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.
 
@@ -117,7 +123,10 @@ So they sat down, and nobody spoke for some minutes. Alice thought to herself, �
 
 These words were followed by a very long silence, broken only by an occasional exclamation of “Hjckrrh!” from the Gryphon, and the constant heavy sobbing of the Mock Turtle. Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there _must_ be more to come, so she sat still and said nothing.
 
-![A gryphon sits on the ground next to Alice. On a rock stands a turtle with the head of a calf, weeping.](./images/illustration-34.png){.w-full}
+<Xfigure src="./images/illustration-34.png"
+caption="A gryphon sits on the ground next to Alice. On a rock stands a turtle with the head of a calf, weeping." />
+
+<!-- ![A gryphon sits on the ground next to Alice. On a rock stands a turtle with the head of a calf, weeping.](./images/illustration-34.png){.w-full} -->
 
 “When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle⁠ — we used to call him Tortoise⁠ —”
 

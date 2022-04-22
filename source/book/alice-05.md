@@ -4,7 +4,10 @@ title: Advice from a Caterpillar
 
 ### V. Advice from a Caterpillar
 
-![Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah.](./images/illustration-15.png){.w-full}
+<Xfigure src="./images/illustration-15.png"
+caption="Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah." />
+
+<!-- ![Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah.](./images/illustration-15.png){.w-full} -->
 
 The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.
 
@@ -58,52 +61,64 @@ Alice thought she might as well wait, as she had nothing else to do, and perhaps
 
 Alice folded her hands, and began:⁠ —
 
-![A young man in rural costume stares at an old fat man who is standing on his head.](./images/illustration-16.png){.w-full}
+<Xfigure src="./images/illustration-16.png"
+caption="A young man in rural costume stares at an old fat man who is standing on his head." />
 
-> “You are old, Father William,” the young man said,<br>
-> &emsp;“And your hair has become very white;<br>
-> And yet you incessantly stand on your head⁠ —<br>
+<!-- ![A young man in rural costume stares at an old fat man who is standing on his head.](./images/illustration-16.png){.w-full} -->
+
+> “You are old, Father William,” the young man said,\
+> &emsp;“And your hair has become very white;\
+> And yet you incessantly stand on your head⁠ —\
 > &emsp;Do you think, at your age, it is right?”
 >
-> “In my youth,” Father William replied to his son,<br>
-> &emsp;“I feared it might injure the brain;<br>
-> But, now that I’m perfectly sure I have none,<br>
+> “In my youth,” Father William replied to his son,\
+> &emsp;“I feared it might injure the brain;\
+> But, now that I’m perfectly sure I have none,\
 > &emsp;Why, I do it again and again.”
 
-![A young man in rural costume backs away from a doorway as an old fat man somersaults through it.](./images/illustration-17.png){.w-full}
+<Xfigure src="./images/illustration-17.png"
+caption="A young man in rural costume backs away from a doorway as an old fat man somersaults through it." />
 
-> “You are old,” said the youth, “as I mentioned before,<br>
-> &emsp;and have grown most uncommonly fat;<br>
-> Yet you turned a back-somersault in at the door⁠ —<br>
+<!-- ![A young man in rural costume backs away from a doorway as an old fat man somersaults through it.](./images/illustration-17.png){.w-full} -->
+
+> “You are old,” said the youth, “as I mentioned before,\
+> &emsp;and have grown most uncommonly fat;\
+> Yet you turned a back-somersault in at the door⁠ —\
 > &emsp;Pray, what is the reason of that?”
 >
-> “In my youth,” said the sage, as he shook his grey locks,<br>
-> &emsp;“I kept all my limbs very supple<br>
-> By the use of this ointment⁠ — one shilling the box⁠ —<br>
+> “In my youth,” said the sage, as he shook his grey locks,\
+> &emsp;“I kept all my limbs very supple\
+> By the use of this ointment⁠ — one shilling the box⁠ —\
 > &emsp;Allow me to sell you a couple?”
 
-![A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace.](./images/illustration-18.png){.w-full}
+<Xfigure src="./images/illustration-18.png"
+caption="A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace." />
 
-> “You are old,” said the youth, “and your jaws are too weak<br>
-> &emsp;For anything tougher than suet;<br>
-> Yet you finished the goose, with the bones and the beak⁠ —<br>
+<!-- ![A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace.](./images/illustration-18.png){.w-full} -->
+
+> “You are old,” said the youth, “and your jaws are too weak\
+> &emsp;For anything tougher than suet;\
+> Yet you finished the goose, with the bones and the beak⁠ —\
 > &emsp;Pray how did you manage to do it?”
 >
-> “In my youth,” said his father, “I took to the law,<br>
-> &emsp;And argued each case with my wife;<br>
-> And the muscular strength, which it gave to my jaw,<br>
+> “In my youth,” said his father, “I took to the law,\
+> &emsp;And argued each case with my wife;\
+> And the muscular strength, which it gave to my jaw,\
 > &emsp;Has lasted the rest of my life.”
 
-![A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose.](./images/illustration-19.png){.w-full}
+<Xfigure src="./images/illustration-19.png"
+caption="A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose." />
 
-> “You are old,” said the youth, “one would hardly suppose<br>
-> &emsp;That your eye was as steady as ever;<br>
-> Yet you balanced an eel on the end of your nose⁠ —<br>
+<!-- ![A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose.](./images/illustration-19.png){.w-full} -->
+
+> “You are old,” said the youth, “one would hardly suppose\
+> &emsp;That your eye was as steady as ever;\
+> Yet you balanced an eel on the end of your nose⁠ —\
 > &emsp;What made you so awfully clever?”
 >
-> “I have answered three questions, and that is enough,”<br>
-> &emsp;Said his father; “don’t give yourself airs!<br>
-> Do you think I can listen all day to such stuff?<br>
+> “I have answered three questions, and that is enough,”\
+> &emsp;Said his father; “don’t give yourself airs!\
+> Do you think I can listen all day to such stuff?\
 > &emsp;Be off, or I’ll kick you down stairs!”
 
 “That is not said right,” said the Caterpillar.

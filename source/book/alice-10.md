@@ -46,36 +46,40 @@ The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes.
 
 “Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”
 
-![A turtle with the head of a calf and a gryphon dance around Alice.](./images/illustration-35.png){.w-full}
+<Xfigure src="./images/illustration-35.png"
+caption="A turtle with the head of a calf and a gryphon dance around Alice." />
+
+<!-- ![A turtle with the head of a calf and a gryphon dance around Alice.](./images/illustration-35.png){.w-full} -->
+
 
 “Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”
 
 So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:⁠ —
 
 >
-> “ ‘Will you walk a little faster?’ said a whiting to a snail.<br>
-> ‘There’s a porpoise close behind us, and he’s treading on my tail.<br>
-><br>
-> See how eagerly the lobsters and the turtles all advance!<br>
-> They are waiting on the shingle ⁠— will you come and join the dance?<br>
-><br>
-> Will you, won’t you, will you, won’t you, will you join the dance?<br>
-> Will you, won’t you, will you, won’t you, won’t you join the dance?<br>
-><br>
-> You can really have no notion how delightful it will be,<br>
-> When they take us up and throw us, with the lobsters, out to sea!’<br>
-> But the snail replied ‘Too far, too far!’ and gave a look askance⁠ —<br>
-> Said he thanked the whiting kindly, but he would not join the dance.<br>
-><br>
-> Would not, could not, would not, could not, would not join the dance.<br>
-> Would not, could not, would not, could not, could not join the dance.<br>
-><br>
-> ‘What matters it how far we go?’ his scaly friend replied.<br>
-> ‘There is another shore, you know, upon the other side.<br>
-> The further off from England the nearer is to France⁠ —<br>
-> Then turn not pale, beloved snail, but come and join the dance.<br>
-><br>
-> Will you, won’t you, will you, won’t you, will you join the dance?<br>
+> “ ‘Will you walk a little faster?’ said a whiting to a snail.\
+> ‘There’s a porpoise close behind us, and he’s treading on my tail.\
+>\
+> See how eagerly the lobsters and the turtles all advance!\
+> They are waiting on the shingle ⁠— will you come and join the dance?\
+>\
+> Will you, won’t you, will you, won’t you, will you join the dance?\
+> Will you, won’t you, will you, won’t you, won’t you join the dance?\
+>\
+> You can really have no notion how delightful it will be,\
+> When they take us up and throw us, with the lobsters, out to sea!’\
+> But the snail replied ‘Too far, too far!’ and gave a look askance⁠ —\
+> Said he thanked the whiting kindly, but he would not join the dance.\
+>\
+> Would not, could not, would not, could not, would not join the dance.\
+> Would not, could not, would not, could not, could not join the dance.\
+>\
+> ‘What matters it how far we go?’ his scaly friend replied.\
+> ‘There is another shore, you know, upon the other side.\
+> The further off from England the nearer is to France⁠ —\
+> Then turn not pale, beloved snail, but come and join the dance.\
+>\
+> Will you, won’t you, will you, won’t you, will you join the dance?\
 > Will you, won’t you, will you, won’t you, won’t you join the dance?’ ”
 >
 
@@ -139,19 +143,24 @@ So Alice began telling them her adventures from the time when she first saw the 
 
 “Stand up and repeat ‘ _’Tis the voice of the sluggard_,’ ” said the Gryphon.
 
-![A lobster stands upright before a dressing-table, holding a hair-brush.](./images/illustration-36.png){.w-full}
-
 “How the creatures order one about, and make one repeat lessons!” thought Alice; “I might as well be at school at once.” However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:⁠ —
 
-> “ ’Tis the voice of the Lobster; I heard him declare,<br>
-> ‘You have baked me too brown, I must sugar my hair.’<br>
-> As a duck with its eyelids, so he with his nose<br>
-> Trims his belt and his buttons, and turns out his toes.”
+<Xfigure src="./images/illustration-36.png"
+caption="A lobster stands upright before a dressing-table, holding a hair-brush."
+class="w-1/2 float-left mr-4" />
+
+<!-- ![A lobster stands upright before a dressing-table, holding a hair-brush.](./images/illustration-36.png){.w-full} -->
+
+
+> “ ’Tis the voice of the Lobster; I heard him declare,\
+> &emsp;‘You have baked me too brown, I must sugar my hair.’\
+> As a duck with its eyelids, so he with his nose\
+> &emsp;Trims his belt and his buttons, and turns out his toes.”
 >
-> When the sands are all dry, he is gay as a lark,<br>
-> And will talk in contemptuous tones of the Shark,<br>
-> But when the tide rises and sharks are around,<br>
-> His voice has a timid and tremulous sound.
+> When the sands are all dry, he is gay as a lark,\
+> &emsp;And will talk in contemptuous tones of the Shark,\
+> But when the tide rises and sharks are around,\
+> &emsp;His voice has a timid and tremulous sound.
 
 “That’s different from what I used to say when I was a child,” said the Gryphon.
 
@@ -171,14 +180,14 @@ Alice said nothing; she had sat down with her face in her hands, wondering if an
 
 Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:⁠ —
 
-> “I passed by his garden, and marked, with one eye,<br>
-> How the Owl and the Panther were sharing a pie⁠ —<br>
-> The Panther took piecrust, and gravy, and meat,<br>
-> While the Owl had the dish as its share of the treat.<br>
-> When the pie was all finished, the Owl, as a boon,<br>
-> Was kindly permitted to pocket the spoon:<br>
-> While the Panther received knife and fork with a growl,<br>
-> And concluded the banquet⁠ —”
+> “I passed by his garden, and marked, with one eye,\
+> &emsp;How the Owl and the Panther were sharing a pie⁠ —\
+> The Panther took piecrust, and gravy, and meat,\
+> &emsp;While the Owl had the dish as its share of the treat.\
+> When the pie was all finished, the Owl, as a boon,\
+> &emsp;Was kindly permitted to pocket the spoon:\
+> While the Panther received knife and fork with a growl,\
+> &emsp;And concluded the banquet⁠ —”
 
 “What _is_ the use of repeating all that stuff,” the Mock Turtle interrupted, “if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!”
 
@@ -190,24 +199,24 @@ Alice did not dare to disobey, though she felt sure it would all come wrong, and
 
 The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:⁠ —
 
-> “Beautiful Soup, so rich and green,<br>
-> Waiting in a hot tureen!<br>
-> Who for such dainties would not stoop?<br>
-> Soup of the evening, beautiful Soup!<br>
-> Soup of the evening, beautiful Soup!<br>
-> &emsp;Beau-ootiful Soo-oop!<br>
-> &emsp;Beau-ootiful Soo-oop!<br>
-> Soo⁠—oop of the e-e-evening,<br>
+> “Beautiful Soup, so rich and green,\
+> Waiting in a hot tureen!\
+> Who for such dainties would not stoop?\
+> Soup of the evening, beautiful Soup!\
+> Soup of the evening, beautiful Soup!\
+> &emsp;Beau-ootiful Soo-oop!\
+> &emsp;Beau-ootiful Soo-oop!\
+> Soo⁠—oop of the e-e-evening,\
 > &emsp;Beautiful, beautiful Soup!
 >
-> “Beautiful Soup! Who cares for fish,<br>
-> Game, or any other dish?<br>
-> Who would not give all else for two<br>
-> Pennyworth only of beautiful Soup?<br>
-> Pennyworth only of beautiful Soup?<br>
-> &emsp;Beau-ootiful Soo-oop!<br>
-> &emsp;Beau-ootiful Soo-oop!<br>
-> Soo⁠—oop of the e-e-evening,<br>
+> “Beautiful Soup! Who cares for fish,\
+> Game, or any other dish?\
+> Who would not give all else for two\
+> Pennyworth only of beautiful Soup?\
+> Pennyworth only of beautiful Soup?\
+> &emsp;Beau-ootiful Soo-oop!\
+> &emsp;Beau-ootiful Soo-oop!\
+> Soo⁠—oop of the e-e-evening,\
 > &emsp;Beautiful, beauti-**ful soup**!”
 
 “Chorus again!” cried the Gryphon, and the Mock Turtle had just begun to repeat it, when a cry of “The trial’s beginning!” was heard in the distance.
@@ -216,5 +225,5 @@ The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs,
 
 “What trial is it?” Alice panted as she ran; but the Gryphon only answered “Come on!” and ran the faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:⁠ —
 
-> “Soo-oop of the e-e-evening,<br>
+> “Soo-oop of the e-e-evening,\
 > &emsp;Beautiful, beautiful Soup!”

@@ -5,7 +5,11 @@ title: Alice’s Evidence
 
 ### XII. Alice’s Evidence
 
-![Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals.](./images/illustration-40.png){.w-full}
+<Xfigure src="./images/illustration-40.png"
+caption="Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals." />
+
+<!-- ![Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals.](./images/illustration-40.png){.w-full} -->
+
 
 “Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
 
@@ -85,34 +89,34 @@ The White Rabbit put on his spectacles. “Where shall I begin, please your Maje
 
 These were the verses the White Rabbit read: ⁠—
 
-> “They told me you had been to her,<br>
-> &emsp;And mentioned me to him:  <br>
-> She gave me a good character,<br>
+> “They told me you had been to her,\
+> &emsp;And mentioned me to him:  \
+> She gave me a good character,\
 > &emsp;But said I could not swim.
 >
-> He sent them word I had not gone  <br>
-> &emsp;(We know it to be true):  <br>
-> If she should push the matter on, <br>
+> He sent them word I had not gone  \
+> &emsp;(We know it to be true):  \
+> If she should push the matter on, \
 > &emsp;What would become of you?
 >
-> I gave her one, they gave him two,  <br>
-> &emsp;You gave us three or more;  <br>
-> They all returned from him to you,  <br>
+> I gave her one, they gave him two,  \
+> &emsp;You gave us three or more;  \
+> They all returned from him to you,  \
 > &emsp;Though they were mine before.
 >
-> If I or she should chance to be <br>
-> &emsp;Involved in this affair, <br>
-> He trusts to you to set them free, <br>
+> If I or she should chance to be \
+> &emsp;Involved in this affair, \
+> He trusts to you to set them free, \
 > &emsp;Exactly as we were.
 >
-> My notion was that you had been <br>
-> &emsp;(Before she had this fit) <br>
-> An obstacle that came between <br>
+> My notion was that you had been \
+> &emsp;(Before she had this fit) \
+> An obstacle that came between \
 > &emsp;Him, and ourselves, and it.
 >
-> Don’t let him know she liked them best, <br>
-> &emsp;For this must ever be <br>
-> A secret, kept from all the rest, <br>
+> Don’t let him know she liked them best, \
+> &emsp;For this must ever be \
+> A secret, kept from all the rest, \
 > &emsp;Between yourself and me.”
 
 “That’s the most important piece of evidence we’ve heard yet,” said the King, rubbing his hands; “so now let the jury⁠ —”
@@ -129,7 +133,11 @@ The Knave shook his head sadly. “Do I look like it?” he said. (Which he cert
 
 “But, it goes on ‘_they all returned from him to you_,’ ” said Alice.
 
-![The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts.](./images/illustration-41.png){.w-full}
+<Xfigure src="./images/illustration-41.png"
+caption="The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts."
+/>
+
+<!-- ![The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts.](./images/illustration-41.png){.w-full} -->
 
 “Why, there they are!” said the King triumphantly, pointing to the tarts on the table. “Nothing can be clearer than _that_. Then again ⁠— ‘before she had this fit ⁠—’ you never had fits, my dear, I think?” he said to the Queen.
 
@@ -151,7 +159,10 @@ The Knave shook his head sadly. “Do I look like it?” he said. (Which he cert
 
 “Who cares for you?” said Alice, (she had grown to her full size by this time.) “You’re nothing but a pack of cards!”
 
-![Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals.](./images/illustration-42.png){.w-full}
+<Xfigure src="./images/illustration-42.png"
+caption="Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals." />
+
+<!-- ![Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals.](./images/illustration-42.png){.w-full} -->
 
 At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face.
 

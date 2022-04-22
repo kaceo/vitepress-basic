@@ -18,7 +18,10 @@ It did so indeed, and much sooner than she had expected: before she had drunk ha
 
 Alas! it was too late to wish that! She went on growing, and growing, and very soon had to kneel down on the floor: in another minute there was not even room for this, and she tried the effect of lying down with one elbow against the door, and the other arm curled round her head. Still she went on growing, and, as a last resource, she put one arm out of the window, and one foot up the chimney, and said to herself, “Now I can do no more, whatever happens. What _will_ become of me?”
 
-![A gigantic Alice is crammed inside a small room, her arm of the window.](./images/illustration-11.png){.w-full}
+<Xfigure src="./images/illustration-11.png"
+caption="A gigantic Alice is crammed inside a small room, her arm out of the window." />
+
+<!-- ![A gigantic Alice is crammed inside a small room, her arm of the window.](./images/illustration-11.png){.w-full} -->
 
 Luckily for Alice, the little magic bottle had now had its full effect, and she grew no larger: still it was very uncomfortable, and, as there seemed to be no sort of chance of her ever getting out of the room again, no wonder she felt unhappy.
 
@@ -36,7 +39,11 @@ Presently the Rabbit came up to the door, and tried to open it; but, as the door
 
 “_That_ you won’t!” thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window, she suddenly spread out her hand, and made a snatch in the air. She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort.
 
-![Alice’s giant hand comes down from above. A white rabbit in a waistcoat has fallen back into a cucumber-frame.](./images/illustration-12.png){.w-full}
+<Xfigure src="./images/illustration-12.png"
+caption="Alice’s giant hand comes down from above. A white rabbit in a waistcoat has fallen back into a cucumber-frame."
+class="w-2/3 float-right ml-4" />
+
+<!-- ![Alice’s giant hand comes down from above. A white rabbit in a waistcoat has fallen back into a cucumber-frame.](./images/illustration-12.png){.w-full} -->
 
 Next came an angry voice ⁠— the Rabbit’s ⁠— “Pat! Pat! Where are you?” And then a voice she had never heard before, “Sure then I’m here! Digging for apples, yer honour!”
 
@@ -60,7 +67,11 @@ She waited for some time without hearing anything more: at last came a rumbling 
 
 She drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.
 
-![A lizard is being shot upwards out of a smoking chimney.](./images/illustration-13.png){.w=full}
+<Xfigure src="./images/illustration-13.png"
+caption="A lizard is being shot upwards out of a smoking chimney."
+class="w-1/2 float-right ml-4" />
+
+<!-- ![A lizard is being shot upwards out of a smoking chimney.](./images/illustration-13.png){.w=full} -->
 
 The first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along ⁠— “Catch him, you by the hedge!” then silence, and then another confusion of voices ⁠— “Hold up his head ⁠— Brandy now ⁠— Don’t choke him ⁠— How was it, old fellow? What happened to you? Tell us all about it!”
 
@@ -84,7 +95,10 @@ It sounded an excellent plan, no doubt, and very neatly and simply arranged; the
 
 An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her. “Poor little thing!” said Alice, in a coaxing tone, and she tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing.
 
-![A tiny Alice hesitantly proffers a stick to a puppy dog which is far larger than herself.](./images/illustration-14.png){.w-full}
+<Xfigure src="./images/illustration-14.png"
+caption="A tiny Alice hesitantly proffers a stick to a puppy dog which is far larger than herself." />
+
+<!-- ![A tiny Alice hesitantly proffers a stick to a puppy dog which is far larger than herself.](./images/illustration-14.png){.w-full} -->
 
 Hardly knowing what she did, she picked up a little bit of stick, and held it out to the puppy; whereupon the puppy jumped into the air off all its feet at once, with a yelp of delight, and rushed at the stick, and made believe to worry it; then Alice dodged behind a great thistle, to keep herself from being run over; and the moment she appeared on the other side, the puppy made another rush at the stick, and tumbled head over heels in its hurry to get hold of it; then Alice, thinking it was very like having a game of play with a carthorse, and expecting every moment to be trampled under its feet, ran round the thistle again; then the puppy began a series of short charges at the stick, running a very little way forwards each time and a long way back, and barking hoarsely all the while, till at last it sat down a good way off, panting, with its tongue hanging out of its mouth, and its great eyes half shut.
 

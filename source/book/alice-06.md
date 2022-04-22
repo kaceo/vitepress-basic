@@ -6,7 +6,10 @@ title: Pig and Pepper
 
 For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood⁠ — (she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)⁠ — and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.
 
-![A frog dressed as a footman stands in a pillared doorway accepting a huge envelope from a fish also dressed as a footman.](./images/illustration-20.png){.w-full}
+<Xfigure src="./images/illustration-20.png"
+caption="A frog dressed as a footman stands in a pillared doorway accepting a huge envelope from a fish also dressed as a footman." />
+
+<!-- ![A frog dressed as a footman stands in a pillared doorway accepting a huge envelope from a fish also dressed as a footman.](./images/illustration-20.png){.w-full} -->
 
 The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone, “For the Duchess. An invitation from the Queen to play croquet.” The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little, “From the Queen. An invitation for the Duchess to play croquet.”
 
@@ -42,7 +45,10 @@ The Footman seemed to think this a good opportunity for repeating his remark, wi
 
 “Oh, there’s no use in talking to him,” said Alice desperately: “he’s perfectly idiotic!” And she opened the door and went in.
 
-![The interior of a kitchen. A servant stirs a pot on the stove while an ugly woman dressed as a duchess sits nursing a squalling baby.](./images/illustration-21.png){.w-full}
+<Xfigure src="./images/illustration-21.png"
+caption="The interior of a kitchen. A servant stirs a pot on the stove while an ugly woman dressed as a duchess sits nursing a squalling baby." />
+
+<!-- ![The interior of a kitchen. A servant stirs a pot on the stove while an ugly woman dressed as a duchess sits nursing a squalling baby.](./images/illustration-21.png){.w-full} -->
 
 The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup.
 
@@ -78,9 +84,9 @@ Alice glanced rather anxiously at the cook, to see if she meant to take the hint
 
 “Oh, don’t bother _me_,” said the Duchess; “I never could abide figures!” And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:
 
-> “Speak roughly to your little boy,<br>
-> &emsp;And beat him when he sneezes:<br>
-> He only does it to annoy,<br>
+> “Speak roughly to your little boy,\
+> &emsp;And beat him when he sneezes:\
+> He only does it to annoy,\
 > &emsp;Because he knows it teases.”
 
 _Chorus_, (In which the cook and the baby joined): ⁠—
@@ -89,9 +95,9 @@ _Chorus_, (In which the cook and the baby joined): ⁠—
 
 While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:⁠ —
 
-> “I speak severely to my boy,<br>
-> &emsp;I beat him when he sneezes;<br>
-> For he can thoroughly enjoy<br>
+> “I speak severely to my boy,\
+> &emsp;I beat him when he sneezes;\
+> For he can thoroughly enjoy\
 > &emsp;The pepper when he pleases!”
 
 _Chorus._
@@ -108,7 +114,10 @@ The baby grunted again, and Alice looked very anxiously into its face to see wha
 
 No, there were no tears. “If you’re going to turn into a pig, my dear,” said Alice, seriously, “I’ll have nothing more to do with you. Mind now!” The poor little thing sobbed again (or grunted, it was impossible to say which), and they went on for some while in silence.
 
-![Alice stands in a garden holding a pig in her arms as though it were a baby.](./images/illustration-22.png){.w-full}
+<Xfigure src="./images/illustration-22.png"
+caption="Alice stands in a garden holding a pig in her arms as though it were a baby." />
+
+<!-- ![Alice stands in a garden holding a pig in her arms as though it were a baby.](./images/illustration-22.png){.w-full} -->
 
 Alice was just beginning to think to herself, “Now, what am I to do with this creature when I get it home?” when it grunted again, so violently, that she looked down into its face in some alarm. This time there could be _no_ mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further.
 
@@ -146,7 +155,10 @@ Alice didn’t think that proved it at all; however, she went on: “And how do 
 
 “I suppose so,” said Alice.
 
-![Alice stands with her hands clasped behind her, looking up at a grinning cat on the branch of a tree.](./images/illustration-23.png){.w-full}
+<Xfigure src="./images/illustration-23.png"
+caption="Alice stands with her hands clasped behind her, looking up at a grinning cat on the branch of a tree." />
+
+<!-- ![Alice stands with her hands clasped behind her, looking up at a grinning cat on the branch of a tree.](./images/illustration-23.png){.w-full} -->
 
 “Well, then,” the Cat went on, “you see, a dog growls when it’s angry, and wags its tail when it’s pleased. Now I growl when I’m pleased, and wag my tail when I’m angry. Therefore I’m mad.”
 
@@ -172,7 +184,10 @@ Alice waited a little, half expecting to see it again, but it did not appear, an
 
 “I said pig,” replied Alice; “and I wish you wouldn’t keep appearing and vanishing so suddenly: you make one quite giddy.”
 
-![A cat on a tree-branch is fading away, leaving only its grin.](./images/illustration-24.png){.w-full}
+<Xfigure src="./images/illustration-24.png"
+caption="A cat on a tree-branch is fading away, leaving only its grin." />
+
+<!-- ![A cat on a tree-branch is fading away, leaving only its grin.](./images/illustration-24.png){.w-full} -->
 
 “All right,” said the Cat; and this time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone.
 
