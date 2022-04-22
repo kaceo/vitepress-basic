@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 sidebar: false
 
 tagline: Hero subtitle
@@ -23,6 +23,12 @@ footer: MIT Licensed | Copyright © 2019-present Evan You
 
 ---
 
+<script setup>
+import { ref } from 'vue'
+import { withBase } from 'vitepress'
+const myfile = ref('./book/images/illustration-1.png')
+</script>
+
 ## Good Grief
 
 What is this ?
@@ -32,10 +38,15 @@ What is this ?
 
 End of events
 
-[/g](/g)
+![A Pix](./book/images/illustration-1.png)
 
-[/g#first](/g#first)
+---
 
-[/g#first/second](/g#first/second)
+<Xfigure src="./book/images/illustration-1.png"
+caption="My special book" />
 
+---
 
+Look at {{ myfile }}
+
+Look at {{ withBase(myfile) }}

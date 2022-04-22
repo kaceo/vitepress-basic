@@ -11,3 +11,10 @@ import Tags from '~/app/templates/tags.vue'
 
 <Tags/>
 
+[/g](/g)
+
+[/g#first](/g#first)
+
+[/g#first/second](/g#first/second)
+
+
