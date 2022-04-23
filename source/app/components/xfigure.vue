@@ -2,15 +2,17 @@
 
 .not-prose.text-center
   .shadow.shadow-md.rounded.rounded-sm.p-2
+    h3 IMAGE CARD
+    i Check out {{ src }}
     figure
-      img(:src="withBase(src)" :alt="alt")
+      img(:src="src" :alt="alt")
     p.text-sm.px-4.my-0
       i {{caption}}
 </template>
 
 <script setup>
-import { withBase } from 'vitepress'
-import { computed } from 'vue'
+//import { withBase } from 'vitepress'
+//import { ref, computed } from 'vue'
 
 const props = defineProps ({
   caption: String,
@@ -18,9 +20,15 @@ const props = defineProps ({
   src: String,
 })
 
+//import yimg from props.src.value
+//const yimgurl = ref(yimg)
+
+/*
 const ssrc = computed(() => {
   //let imgUrl = new URL(props.src.value, import.meta.url).href
   let imgUrl = props.src.value
   return withBase(imgUrl)
 })
+*/
+
 </script>

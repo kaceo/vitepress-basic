@@ -10,6 +10,7 @@
       p Your Description Here
     .card-actions.justify-end
       button.btn.btn-primary {{ actiontext }}
+
 </template>
 
 <script setup>
