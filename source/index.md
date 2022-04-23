@@ -22,17 +22,12 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 
 ---
-
 <script setup>
-import { ref } from 'vue'
-import { withBase } from 'vitepress'
-
 import _tmp1 from './book/images/illustration-4.png'
 import _tmp2 from "./book/images/illustration-1.png"
-
-//const ximgurl = ref(_tmp)
-
 </script>
+
+
 
 ## Good Grief
 
@@ -44,11 +39,10 @@ What is this ?
 caption="My special book" />
 
 ---
+## Sad Monkey
 
-Look at {{ _tmp2 }}
-
-Look at {{ withBase(_tmp2) }}
-
+<Xfigure :src="_tmp2"
+caption="My special book" />
 ---
 
 ![A Pix](./book/images/illustration-1.png)
