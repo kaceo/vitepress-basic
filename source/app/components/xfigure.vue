@@ -5,9 +5,9 @@
     h3 IMAGE CARD
     i Check out {{ src }}
     figure
-      img(:src="src" :alt="alt")
-    p.text-sm.px-4.my-0
-      i {{caption}}
+      img(:src="src" :alt="alt" :title="caption")
+      figcaption.text-sm.px-4.my-0
+        i {{caption}}
 </template>
 
 <script setup>

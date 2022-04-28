@@ -5,11 +5,19 @@
 
 .content,
 .home-content {
-
   @apply prose prose-lg;
-
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Orelega One', cursive;
+}
+
+.content dt {
+  @apply font-bold italic;
+}
+.content dd {
+  @apply indent-4;
+}
+.content dl {
+  /* @apply outline-dotted p-2; */
 }

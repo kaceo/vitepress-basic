@@ -8,8 +8,14 @@ import compress from 'vite-plugin-compress'
 
 //const markdown = require("v-press-plus/dist/vitepress").markdown;
 //const anchor = require('markdown-it-anchor')
-const fa = require('@gerhobbelt/markdown-it-fontawesome')
+//const fa = require('@gerhobbelt/markdown-it-fontawesome')
+
 const dl = require('markdown-it-deflist')
+
+const fn = require('./plugins/md-footnote')
+//const fn = require('markdown-it-footnote')
+const cicons = require ('./plugins/md-icons')
+const chints = require ('./plugins/md-hints')
 
 //const getPages = require("./utils/pages.js")
 
@@ -98,8 +104,10 @@ export default defineConfig({
     toc: { includeLevel: [1, 2] },
     linkify: false,
     config: (md) => {
-      md.use(fa)
-      md.use(dl)
+      md.use(cicons) // icons fa, mdi
+      .use(chints) // asset hints
+      .use(fn) // footnotes
+      .use(dl) // deflists
     },
   },
   //vite
@@ -120,3 +128,29 @@ export default defineConfig({
   //optimizeDeps: {keepName: true},
 })
 
+
+/*
+sdfgssdf/markdown-it-vue
+
+  "github-markdown-css": "^3.0.1",
+  "markdown-it": "^10.0.0",
+  "markdown-it-abbr": "^1.0.4",
+  "markdown-it-emoji": "^1.4.0",
+  "markdown-it-icons": "^0.4.1",
+  "markdown-it-ins": "^3.0.0",
+  "markdown-it-mark": "^3.0.0",
+  "markdown-it-sub": "^1.0.0",
+  "markdown-it-sup": "^1.0.0",
+  "markdown-it-deflist": "^2.0.3",
+  "markdown-it-container": "^2.0.0",
+  "markdown-it-footnote": "^3.0.1",
+  "markdown-it-task-lists": "^2.1.1",
+  "markdown-it-katex": "^2.0.3",
+  "markdown-it-latex": "^0.2.0",
+  "markdown-it-source-map": "^0.1.1",
+  "markdown-it-toc-and-anchor": "^4.1.2",
+  "markdown-it-github-toc": "^3.2.4",
+  "highlight.js": "^9.16.2",
+  "vue": "^2.6.6"
+
+*/
