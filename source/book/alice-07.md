@@ -24,10 +24,12 @@ Alice looked all round the table, but there was nothing on it but tea. “I don�
 
 “You should learn not to make personal remarks,” Alice said with some severity; “it’s very rude.”
 
-<Xfigure src="./images/illustration-25.png"
+<script setup>
+import pix25 from "./images/illustration-25.png"
+//![An outside table is set for tea. Alice sits at one end, looking cross. A hare and a hatter sit with a dormouse between them.](./images/illustration-25.png)
+</script>
+<Xfigure :src="pix25"
 caption="An outside table is set for tea. Alice sits at one end, looking cross. A hare and a hatter sit with a dormouse between them." />
-
-<!-- ![An outside table is set for tea. Alice sits at one end, looking cross. A hare and a hatter sit with a dormouse between them.](./images/illustration-25.png){.w-full} -->
 
 The Hatter opened his eyes very wide on hearing this; but all he said was, “Why is a raven like a writing-desk?”
 
@@ -105,11 +107,13 @@ Alice sighed wearily. “I think you might do something better with the time,”
 
 The Hatter shook his head mournfully. “Not I!” he replied. “We quarrelled last March⁠ — just before _he_ went mad, you know⁠ —” (pointing with his tea spoon at the March Hare,) “⁠— it was at the great concert given by the Queen of Hearts, and I had to sing
 
-<Xfigure src="./images/illustration-26.png"
+<script setup>
+import pix26 from "./images/illustration-26.png"
+//![A hatter sits at a tea-table, singing. He seems to be elbowing a dormouse in the eye.](./images/illustration-26.png)
+</script>
+<Xfigure :src="pix26"
 caption="A hatter sits at a tea-table, singing. He seems to be elbowing a dormouse in the eye."
 class="w-1/2 float-right ml-4" />
-
-<!-- ![A hatter sits at a tea-table, singing. He seems to be elbowing a dormouse in the eye.](./images/illustration-26.png){.w-full} -->
 
 > ‘Twinkle, twinkle, little bat!\
 > How I wonder what you’re at!’
@@ -222,10 +226,12 @@ The Dormouse had closed its eyes by this time, and was going off into a doze; bu
 
 This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot.
 
-<Xfigure src="./images/illustration-27.png"
+<script setup>
+import pix27 from "./images/illustration-27.png"
+//![A hare and a hatter are stuffing a dormouse into the top of a teapot.](./images/illustration-27.png)
+</script>
+<Xfigure :src="pix27"
 caption="A hare and a hatter are stuffing a dormouse into the top of a teapot." />
-
-<!-- ![A hare and a hatter are stuffing a dormouse into the top of a teapot.](./images/illustration-27.png){.w-full} -->
 
 “At any rate I’ll never go _there_ again!” said Alice as she picked her way through the wood. “It’s the stupidest tea-party I ever was at in all my life!”
 

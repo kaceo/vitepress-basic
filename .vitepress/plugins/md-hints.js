@@ -1,3 +1,39 @@
+/*************************************
+ * md-hints.js: a direct upgrade replacement for
+ * vitepress' src/node/markdown/plugins/hoist.ts
+ * or it can be installed as an extra markdown-it
+ * plugin through the user's .vitepress/config.js
+ *
+ * markdown: {
+ *   config: (md) => {
+ *     md.use(require("md-hints.js"))
+ *   }
+ * }
+ *
+ * This version allows the Markdown file to contain
+ * multiple Vue sections of <Script> and/or <Style>,
+ * and the renderer will combine them automatically
+ * into one <Script>, <Script Setup> and <Style>
+ *
+ * Hence making the use of Vite import statements
+ * easier as they can always be placed next to the
+ * position of the Custom Components in the MD text:
+ *
+ * <script setup>
+ * import pix1 from "./images/mypix.png"
+ * </script>
+ * <CustomComponent :src="pix1" />
+ *
+ * CAVEAT:
+ * This plugin can only be used within Vitepress
+ * because detecting <script> and <style> is done
+ * in src/node/markdown/plugins/components.ts
+ * Using this as a general Markdown-it plugin, it
+ * is necessary also to replace the syntax hooks
+ * to md.block.ruler.at('html_block', _block)
+ *
+ ************************************/
+
 'use strict';
 
 ////////////////////////////////////////////
@@ -30,16 +66,16 @@ function _collate(content, hoistedTags) {
 //append text to the current string
 const REPL = /^<([^>]+)>\n?(.*)<\/\w+>$/ims
 function _combine(content, hoistedTags, pos) {
-  //console.log('found', content)
   let rc=REPL.exec(content.trim())
   if (!rc || rc.length <2) return ''
   // rc[1] is the opening tag, we can ignore it
+  // rc[2] is the innerHTML, append string
   hoistedTags[pos] =  ( hoistedTags[pos] || '') + rc[2]
   return rc[2]
 }
 
 ////////////////////////////////////////////
-//epilog hook is called after the core inline parsing
+//epilog hook is called at end of core inline parsing
 function _epilog_hook(state, startLine, endLine, silent) {
   //we push an epilog token into the document
   var token = new state.Token('epilog_token', 'div', 0);
@@ -51,8 +87,28 @@ function _epilog_hook(state, startLine, endLine, silent) {
 module.exports = function plugin(md, options) {
 
   ////////////////////////////////////////////
-  //there should be an epilog_token at the end of stream
-  //we combine all the hoisted scripts together
+  //new renderer for HTML_BLOCK token
+  //replaces the "hoist.js" in official repo
+  //hoist script and style into md.data
+  function _hoist_render(tokens, idx) {
+    const data = (md).__data
+    const hoistedTags = data.hoistedTags || (data.hoistedTags = ['','',''])
+    const content = tokens[idx].content
+    if (_collate(content, hoistedTags) > 0) {
+      //scripts and styles are hoisted
+      //return empty string
+      return '<!-- CUSTOM STYLE HOISTED -->'
+    }
+    else {
+      //Custom Component, html tags or comment
+      //return original text as is
+      return '<!--CUSTOM START-->' + content + '<!--CUSTOM END-->'
+    }
+  }
+
+  ////////////////////////////////////////////
+  //at the end of stream we combine all the
+  //hoisted scripts together
   function _epilog_render(tokens, idx) {
     const data = (md).__data
     const hoistedTags = data.hoistedTags || (data.hoistedTags = ['','',''])
@@ -68,33 +124,14 @@ module.exports = function plugin(md, options) {
   }
 
   ////////////////////////////////////////////
-  //new renderer for any HTML_BLOCK token
-  //replace the "hoist.js" in official
-  //hoist only script and style into md.data
-  function _hoist_render(tokens, idx) {
-    const data = (md).__data
-    const hoistedTags = data.hoistedTags || (data.hoistedTags = ['','',''])
-    const content = tokens[idx].content
-    if (_collate(content, hoistedTags) > 0) {
-      // return empty string
-      // scripts and styles are hoisted
-      return '<!-- CUSTOM STYLE HOISTED -->'
-    }
-    else {
-      //return original text
-      //could be a Custom Component, html tags or comment
-      return '<!--CUSTOM START-->' + content + '<!--CUSTOM END-->'
-    }
-  }
+  //Vitepress
+  //src/node/markdown/plugins/component.ts detects html_blocks
+  //src/node/markdown/plugins/hoist.ts adds to the md.data
+  //md.block.ruler.at('html_block', _block)
+  md.renderer.rules.html_block = _hoist_render;
 
   ////////////////////////////////////////////
   //epilog hooks to the end of main parse,
   md.core.ruler.after('inline', 'epilog', _epilog_hook)
   md.renderer.rules.epilog_token = _epilog_render;
-
-  ////////////////////////////////////////////
-  //component detects html_blocks
-  //hoist adds them to the md.data
-  //md.block.ruler.at('html_block', _block)
-  md.renderer.rules.html_block = _hoist_render;
 };

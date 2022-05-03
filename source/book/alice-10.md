@@ -46,11 +46,12 @@ The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes.
 
 “Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”
 
-<Xfigure src="./images/illustration-35.png"
+<script setup>
+import pix35 from "./images/illustration-35.png"
+//![A turtle with the head of a calf and a gryphon dance around Alice.](./images/illustration-35.png)
+</script>
+<Xfigure :src="pix35"
 caption="A turtle with the head of a calf and a gryphon dance around Alice." />
-
-<!-- ![A turtle with the head of a calf and a gryphon dance around Alice.](./images/illustration-35.png){.w-full} -->
-
 
 “Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”
 
@@ -145,12 +146,13 @@ So Alice began telling them her adventures from the time when she first saw the 
 
 “How the creatures order one about, and make one repeat lessons!” thought Alice; “I might as well be at school at once.” However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:⁠ —
 
-<Xfigure src="./images/illustration-36.png"
+<script setup>
+import pix36 from "./images/illustration-36.png"
+//![A lobster stands upright before a dressing-table, holding a hair-brush.](./images/illustration-36.png)
+</script>
+<Xfigure :src="pix36"
 caption="A lobster stands upright before a dressing-table, holding a hair-brush."
 class="w-1/2 float-left mr-4" />
-
-<!-- ![A lobster stands upright before a dressing-table, holding a hair-brush.](./images/illustration-36.png){.w-full} -->
-
 
 > “ ’Tis the voice of the Lobster; I heard him declare,\
 > &emsp;‘You have baked me too brown, I must sugar my hair.’\

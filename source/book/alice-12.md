@@ -5,11 +5,12 @@ title: Alice’s Evidence
 
 ### XII. Alice’s Evidence
 
-<Xfigure src="./images/illustration-40.png"
+<script setup>
+import pix40 from "./images/illustration-40.png"
+//![Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals.](./images/illustration-40.png)
+</script>
+<Xfigure :src="pix40"
 caption="Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals." />
-
-<!-- ![Alice is in the process of standing up, and in doing so, upsetting a jury-box filled with small animals.](./images/illustration-40.png){.w-full} -->
-
 
 “Here!” cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
 
@@ -133,11 +134,13 @@ The Knave shook his head sadly. “Do I look like it?” he said. (Which he cert
 
 “But, it goes on ‘_they all returned from him to you_,’ ” said Alice.
 
-<Xfigure src="./images/illustration-41.png"
+<script setup>
+import pix41 from "./images/illustration-41.png"
+//![The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts.](./images/illustration-41.png)
+</script>
+<Xfigure :src="pix41"
 caption="The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts."
 />
-
-<!-- ![The King of Hearts is seated on a throne, wearing spectacles. Below him stands the Knave of Hearts and on a table is a plate of tarts.](./images/illustration-41.png){.w-full} -->
 
 “Why, there they are!” said the King triumphantly, pointing to the tarts on the table. “Nothing can be clearer than _that_. Then again ⁠— ‘before she had this fit ⁠—’ you never had fits, my dear, I think?” he said to the Queen.
 
@@ -159,10 +162,12 @@ caption="The King of Hearts is seated on a throne, wearing spectacles. Below him
 
 “Who cares for you?” said Alice, (she had grown to her full size by this time.) “You’re nothing but a pack of cards!”
 
-<Xfigure src="./images/illustration-42.png"
+<script setup>
+import pix42 from "./images/illustration-42.png"
+//![Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals.](./images/illustration-42.png)
+</script>
+<Xfigure :src="pix42"
 caption="Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals." />
-
-<!-- ![Alice is standing, trying to fend off a cloud of playing-cards which swirl up around her. At her feet are many small animals.](./images/illustration-42.png){.w-full} -->
 
 At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face.
 

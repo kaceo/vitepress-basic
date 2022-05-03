@@ -18,10 +18,12 @@ On which Seven looked up and said, “That’s right, Five! Always lay the blame
 
 “Yes, it _is_ his business!” said Five, “and I’ll tell him⁠ — it was for bringing the cook tulip-roots instead of onions.”
 
-<Xfigure src="./images/illustration-28.png"
+<script setup>
+import pix28 from "./images/illustration-28.png"
+//![Three playing-cards with heads, arms and legs stand around a rose-tree arguing.](./images/illustration-28.png)
+</script>
+<Xfigure :src="pix28"
 caption="Three playing-cards with heads, arms and legs stand around a rose-tree arguing." />
-
-<!-- ![Three playing-cards with heads, arms and legs stand around a rose-tree arguing.](./images/illustration-28.png){.w-full} -->
 
 Seven flung down his brush, and had just begun “Well, of all the unjust things⁠ —” when his eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low.
 
@@ -43,10 +45,12 @@ When the procession came opposite to Alice, they all stopped and looked at her, 
 
 “How should I know?” said Alice, surprised at her own courage. “It’s no business of _mine_.”
 
-<Xfigure src="./images/illustration-29.png"
+<script setup>
+import pix29 from "./images/illustration-29.png"
+//![The King and Queen of Hearts, surrounded by courtiers, stand in a garden. The Queen points accusingly at Alice. At right, a servant holds a cushion bearing a large crown.](./images/illustration-29.png)
+</script>
+<Xfigure :src="pix29"
 caption="The King and Queen of Hearts, surrounded by courtiers, stand in a garden. The Queen points accusingly at Alice. At right, a servant holds a cushion bearing a large crown." />
-
-<!-- ![The King and Queen of Hearts, surrounded by courtiers, stand in a garden. The Queen points accusingly at Alice. At right, a servant holds a cushion bearing a large crown.](./images/illustration-29.png){.w-full} -->
 
 The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed “Off with her head! Off ⁠—”
 
@@ -96,11 +100,13 @@ The soldiers were silent, and looked at Alice, as the question was evidently mea
 
 “Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.
 
-<Xfigure src="./images/illustration-30.png"
+<script setup>
+import pix30 from "./images/illustration-30.png"
+//![Alice stands with one foot on a hedgehog, holding on to a flamingo which stares her in the face.](./images/illustration-30.png)
+</script>
+<Xfigure :src="pix30"
 caption="Alice stands with one foot on a hedgehog, holding on to a flamingo which stares her in the face."
 class="w-2/3 float-right ml-4" />
-
-<!-- ![Alice stands with one foot on a hedgehog, holding on to a flamingo which stares her in the face.](./images/illustration-30.png){.w-full} -->
 
 The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wanted to send the hedgehog to, and, as the doubled-up soldiers were always getting up and walking off to other parts of the ground, Alice soon came to the conclusion that it was a very difficult game indeed.
 
@@ -152,10 +158,12 @@ The moment Alice appeared, she was appealed to by all three to settle the questi
 
 The executioner’s argument was, that you couldn’t cut off a head unless there was a body to cut it off from: that he had never had to do such a thing before, and he wasn’t going to begin at _his_ time of life.
 
-<Xfigure src="./images/illustration-31.png"
+<script setup>
+import pix31 from "./images/illustration-31.png"
+//![A large cat’s head floats above a crowd which includes the King and Queen of Hearts.](./images/illustration-31.png){.w-full} -->
+</script>
+<Xfigure :src="pix31"
 caption="A large cat’s head floats above a crowd which includes the King and Queen of Hearts." />
-
-<!-- ![A large cat’s head floats above a crowd which includes the King and Queen of Hearts.](./images/illustration-31.png){.w-full} -->
 
 The King’s argument was, that anything that had a head could be beheaded, and that you weren’t to talk nonsense.
 

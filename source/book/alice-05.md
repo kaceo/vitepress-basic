@@ -4,10 +4,13 @@ title: Advice from a Caterpillar
 
 ### V. Advice from a Caterpillar
 
-<Xfigure src="./images/illustration-15.png"
+<script setup>
+import pix15 from "./images/illustration-15.png"
+//![Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah.](./images/illustration-15.png)
+</script>
+<Xfigure :src="pix15"
 caption="Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah." />
 
-<!-- ![Alice peers over the edge of a mushroom as tall as herself to stare at an upright caterpillar smoking a hookah.](./images/illustration-15.png){.w-full} -->
 
 The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.
 
@@ -61,10 +64,13 @@ Alice thought she might as well wait, as she had nothing else to do, and perhaps
 
 Alice folded her hands, and began:⁠ —
 
-<Xfigure src="./images/illustration-16.png"
+<script setup>
+import pix16 from "./images/illustration-16.png"
+//![A young man in rural costume stares at an old fat man who is standing on his head.](./images/illustration-16.png)
+</script>
+<Xfigure :src="pix16"
 caption="A young man in rural costume stares at an old fat man who is standing on his head." />
 
-<!-- ![A young man in rural costume stares at an old fat man who is standing on his head.](./images/illustration-16.png){.w-full} -->
 
 > “You are old, Father William,” the young man said,\
 > &emsp;“And your hair has become very white;\
@@ -76,10 +82,13 @@ caption="A young man in rural costume stares at an old fat man who is standing o
 > But, now that I’m perfectly sure I have none,\
 > &emsp;Why, I do it again and again.”
 
-<Xfigure src="./images/illustration-17.png"
+<script setup>
+import pix17 from "./images/illustration-17.png"
+//![A young man in rural costume backs away from a doorway as an old fat man somersaults through it.](./images/illustration-17.png)
+</script>
+<Xfigure :src="pix17"
 caption="A young man in rural costume backs away from a doorway as an old fat man somersaults through it." />
 
-<!-- ![A young man in rural costume backs away from a doorway as an old fat man somersaults through it.](./images/illustration-17.png){.w-full} -->
 
 > “You are old,” said the youth, “as I mentioned before,\
 > &emsp;and have grown most uncommonly fat;\
@@ -91,10 +100,12 @@ caption="A young man in rural costume backs away from a doorway as an old fat ma
 > By the use of this ointment⁠ — one shilling the box⁠ —\
 > &emsp;Allow me to sell you a couple?”
 
-<Xfigure src="./images/illustration-18.png"
+<script setup>
+import pix18 from "./images/illustration-18.png"
+//![A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace.](./images/illustration-18.png)
+</script>
+<Xfigure :src="pix18"
 caption="A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace." />
-
-<!-- ![A young man in rural costume lifts the covers from a empty plates and stares at a fat old man sitting by a fireplace.](./images/illustration-18.png){.w-full} -->
 
 > “You are old,” said the youth, “and your jaws are too weak\
 > &emsp;For anything tougher than suet;\
@@ -106,10 +117,12 @@ caption="A young man in rural costume lifts the covers from a empty plates and s
 > And the muscular strength, which it gave to my jaw,\
 > &emsp;Has lasted the rest of my life.”
 
-<Xfigure src="./images/illustration-19.png"
+<script setup>
+import pix19 from "./images/illustration-19.png"
+//![A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose.](./images/illustration-19.png)
+</script>
+<Xfigure :src="pix19"
 caption="A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose." />
-
-<!-- ![A young man in rural costume stares in amazement at an old fat man who is balancing a wriggling eel on his nose.](./images/illustration-19.png){.w-full} -->
 
 > “You are old,” said the youth, “one would hardly suppose\
 > &emsp;That your eye was as steady as ever;\

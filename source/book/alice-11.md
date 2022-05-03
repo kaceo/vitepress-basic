@@ -25,11 +25,13 @@ One of the jurors had a pencil that squeaked. This of course, Alice could _not_ 
 
 “Herald, read the accusation!” said the King.
 
-<Xfigure src="./images/illustration-37.png"
+<script setup>
+import pix37 from "./images/illustration-37.png"
+//![A white rabbit stands upright, dressed in livery patterned with hearts. With one hand he is blowing a small trumpet and holding a scroll in his other hand.](./images/illustration-37.png)
+</script>
+<Xfigure :src="pix37"
 caption="A white rabbit stands upright, dressed in livery patterned with hearts. With one hand he is blowing a small trumpet and holding a scroll in his other hand."
 class="w-1/2 float-right ml-4" />
-
-<!-- ![A white rabbit stands upright, dressed in livery patterned with hearts. With one hand he is blowing a small trumpet and holding a scroll in his other hand.](./images/illustration-37.png){.w-full} -->
 
 On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:⁠ —
 
@@ -86,11 +88,14 @@ All this time the Queen had never left off staring at the Hatter, and, just as t
 
 “Give your evidence,” the King repeated angrily, “or I’ll have you executed, whether you’re nervous or not.”
 
-<Xfigure src="./images/illustration-38.svg"
+<script setup>
+import pix38 from "./images/illustration-38.svg"
+//![A hatter stands holding a cup of tea in one hand and a sandwich in the other. He is in his stockinged feet, with his shoes cast aside.](./images/illustration-38.svg)
+</script>
+<Xfigure :src="pix38"
 caption="A hatter stands holding a cup of tea in one hand and a sandwich in the other. He is in his stockinged feet, with his shoes cast aside."
 class="w-1/2 float-left mr-4" />
 
-<!-- ![A hatter stands holding a cup of tea in one hand and a sandwich in the other. He is in his stockinged feet, with his shoes cast aside.](./images/illustration-38.svg){.w-full} -->
 
 “I’m a poor man, your Majesty,” the Hatter began, in a trembling voice, “⁠— and I hadn’t begun my tea ⁠— not above a week or so ⁠— and what with the bread-and-butter getting so thin⁠ — and the twinkling of the tea⁠ —”
 
@@ -128,10 +133,12 @@ Here one of the guinea-pigs cheered, and was immediately suppressed by the offic
 
 “I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, ‘There was some attempts at applause, which was immediately suppressed by the officers of the court,’ and I never understood what it meant till now.”
 
-<Xfigure src="./images/illustration-39.png"
+<script setup>
+import pix39 from "./images/illustration-39.png"
+//![A hatter runs off to the right. He is holding a cup of tea and a sandwich.](./images/illustration-39.png)
+</script>
+<Xfigure :src="pix39"
 caption="A hatter runs off to the right. He is holding a cup of tea and a sandwich." />
-
-<!-- ![A hatter runs off to the right. He is holding a cup of tea and a sandwich.](./images/illustration-39.png){.w-full} -->
 
 “If that’s all you know about it, you may stand down,” continued the King.
 
