@@ -22,10 +22,35 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 
 ---
+
+<style>
+h3 {font-family: Leto;}
+</style>
+
+<script>
+  console.log('Hello')
+</script>
+
+<style>
+  h5 {color: #ffe;}
+</style>
+
+<style>
+/* some thing*/
+</style>
+
+
+
+
 <script setup>
 import _tmp1 from './book/images/illustration-4.png'
-import _tmp2 from "./book/images/illustration-1.png"
+const mcap='A testing '+'another superman'
 </script>
+<Xfigure
+  :src='_tmp1'
+  :caption="mcap"
+/>
+
 
 ::: tip How to Eat
 Try eating everyday!
@@ -53,14 +78,19 @@ $$$
 
 
 
-<Xfigure :src="_tmp1"
-caption="My special book" />
+<script setup>
+import _tmp2 from "./book/images/illustration-1.png"
+</script>
+<Xfigure :src="_tmp2"
+caption="My special book"
+/>
 
 ---
 ## Sad Monkey
 
 <Xfigure :src="_tmp2"
 caption="My special book" />
+
 ---
 
 ! [Alt Pix] (./book/images/illustration-1.png "Title Pix")

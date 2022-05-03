@@ -2,7 +2,7 @@
 // replaces "markdown-it-fontawesome"
 // replaces "markdown-it-mdi"
 
-import RegExPlugin from 'markdown-it-regexp'
+const RegExPlugin = require('markdown-it-regexp')
 
 // :mdi-xxxx:  becomes i.mdi.mdi-xxxx
 const expr_mdi = RegExPlugin(

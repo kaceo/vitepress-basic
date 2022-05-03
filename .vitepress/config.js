@@ -99,6 +99,7 @@ export default defineConfig({
   //========================================
   //markdown: ,
   markdown: {
+    xhtmlOut: true,
     lineNumbers: true,
     anchor: { permalink: false },
     toc: { includeLevel: [1, 2] },

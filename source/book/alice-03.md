@@ -4,10 +4,13 @@ title:  Caucus-Race and a Long Tale
 
 ### III. A Caucus-Race and a Long Tale
 
-<Xfigure src="./images/illustration-9.png"
+<script setup>
+import pix9 from "./images/illustration-9.png"
+//![A large crowd of creatures stand around listening to a mouse. The creatures include an owl, a dodo, and a crab.](./images/illustration-9.png)
+</script>
+<Xfigure :src="pix9"
 caption="A large crowd of creatures stand around listening to a mouse. The creatures include an owl, a dodo, and a crab." />
 
-<!-- ![A large crowd of creatures stand around listening to a mouse. The creatures include an owl, a dodo, and a crab.](./images/illustration-9.png){.w-full} -->
 
 They were indeed a queer-looking party that assembled on the bank⁠ — the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.
 
@@ -63,10 +66,12 @@ Alice had no idea what to do, and in despair she put her hand in her pocket, and
 
 “Hand it over here,” said the Dodo.
 
-<Xfigure src="./images/illustration-10.png"
+<script setup>
+import pix10 from "./images/illustration-10.png"
+//![Alice accepts a humble handed to her by a dodo who is taller than herself. The dodo leans upon a stick.](./images/illustration-10.png)
+</script>
+<Xfigure :src="pix10"
 caption="Alice accepts a humble handed to her by a dodo who is taller than herself. The dodo leans upon a stick." />
-
-<!-- ![Alice accepts a humble handed to her by a dodo who is taller than herself. The dodo leans upon a stick.](./images/illustration-10.png){.w-full} -->
 
 Then they all crowded round her once more, while the Dodo solemnly presented the thimble, saying “We beg your acceptance of this elegant thimble”; and, when it had finished this short speech, they all cheered.
 

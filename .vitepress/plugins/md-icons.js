@@ -5,7 +5,7 @@
 // "markdown-it-mdi"
 // needs to have mdi icon css loaded to work
 
-import RegExPlugin from 'markdown-it-regexp'
+const RegExPlugin = require('markdown-it-regexp')
 
 // :fa-xxxx:  becomes i.fa.fa-xxxx
 const plugin_fa = RegExPlugin(

@@ -1,105 +1,100 @@
 'use strict';
 
-// a fenced block $$$ xxxxx $$$
-const tag_mark  = '$'
-const tag_min = 3
-
-function _split_line(state, startLine) {
-  let pos, tag, params, taglen
-  let start = state.bMarks[startLine] + state.tShift[startLine]
-  let max = state.eMarks[startLine]
-  let indent = state.sCount[startLine]
-  let blkindent = state.blkIndent
-  let code = state.src.charCodeAt(start)
-  for (pos = start+1; pos<=max; pos++) {
-    if (tag_mark !== state.src[pos]) {break;}
+////////////////////////////////////////////
+//Filter out scripts and styles for special treatment
+const RE1  = /^<style(?=(\s|>|$))/i
+const RE2  = /^<script\s+setup(?=(\s|>|$))/i
+const RE3  = /^<script(?=(\s|>|$))/i
+// returns 1, 2, 3 if match RE, 0 otherwise
+function _collate(content, hoistedTags) {
+  let rc
+  if (RE1.test(content)) {
+    rc=_combine(content, hoistedTags, 0)
+    //console.log('STYLE: ',rc)
+    return 1
   }
-  tag = state.src.slice(start, pos)
-  taglen = pos - start
-  params = state.src.slice(pos, max)
-  return { start, max, code, tag, taglen, params, indent, blkindent }
-}
-
-
-function _parse(state, startLine, nextLine, auto_closed, ptype, tag, params) {
-  let old_parent = state.parentType;
-  let old_line_max = state.lineMax;
-  state.lineMax = nextLine;
-
-  let token    = state.push(ptype + '_open', 'div', 1);
-  token.block  = true;
-  token.map    = [ startLine, nextLine ];
-  token.markup = tag;
-  token.info   = params;
-
-  state.parentType = ptype;
-
-  //process startLine+1 to nextLine
-  state.md.block.tokenize(state, startLine + 1, nextLine);
-
-  token        = state.push(ptype + '_close', 'div', -1);
-  token.block  = true;
-  token.markup = tag; //state.src.slice(start, pos);
-
-  state.parentType = old_parent;
-  state.lineMax = old_line_max;
-  state.line = nextLine + (auto_closed ? 1 : 0);
-}
-
-function hintrule(state, startLine, endLine, silent) {
-  let tag_code = tag_mark.charCodeAt(0)
-
-  let { start, max, code, tag, taglen, params } = _split_line(state, startLine)
-  if (code !== tag_code ) {return false;}
-  if (taglen < tag_min) { return false; }
-  if (params.trim === '') { return false; }
-  if (silent) { return true; }
-
-  //console.log('Rule start @ ', startLine, ' : found ',
-  //   tag, ' (', taglen,') | ', params)
-
-  // loop over lines until end of block
-  let auto_closed = false
-  let nextLine = startLine+1
-  for (; nextLine < endLine; nextLine++ ) {
-    let { start, max, code, tag, taglen, params, indent, blkindent } = _split_line(state, nextLine)
-    if (code !== tag_code) { continue; }
-    if (taglen !== tag_min) { continue; }
-    if (indent - blkindent >= 4) { continue; }
-    if (params.trim === '') { break; }
-    if (start < max && indent < blkindent) { break; }
-    auto_closed = true; break;
+  if (RE2.test(content)) {
+    rc=_combine(content, hoistedTags, 1)
+    //console.log('SETUP: ',rc)
+    return 2
   }
-
-  //console.log('Rule end @ ', nextLine, ' : found ',
-  //  tag, ' (', taglen,') | ', params,
-  //  ' (', auto_closed, ')' )
-
-  //end of block, either auto-closed or by finding the tag
-  _parse(state, startLine, nextLine, auto_closed, 'hint', tag, params)
-  return true;
-}
-
-function render(tokens, idx) {
-  const token = tokens[idx]
-  const info = token.info.trim()
-  if (token.nesting === 1) {
-    return `<div class="tip custom-block">\n
-      <p class="custom-block-title">[Component] ${
-      info || "Hint"
-    }</p>\n<pre>`
-  } else {
-    return `</pre>\n</div>\n`
+  if (RE3.test(content)) {
+    rc=_combine(content, hoistedTags, 2)
+    //console.log('SCRIPT: ',rc)
+    return 3
   }
+  return 0 // no hoisting needed
 }
 
+////////////////////////////////////////////
+//append text to the current string
+const REPL = /^<([^>]+)>\n?(.*)<\/\w+>$/ims
+function _combine(content, hoistedTags, pos) {
+  //console.log('found', content)
+  let rc=REPL.exec(content.trim())
+  if (!rc || rc.length <2) return ''
+  // rc[1] is the opening tag, we can ignore it
+  hoistedTags[pos] =  ( hoistedTags[pos] || '') + rc[2]
+  return rc[2]
+}
+
+////////////////////////////////////////////
+//epilog hook is called after the core inline parsing
+function _epilog_hook(state, startLine, endLine, silent) {
+  //we push an epilog token into the document
+  var token = new state.Token('epilog_token', 'div', 0);
+  state.tokens.push(token);
+}
+
+////////////////////////////////////////////
+//main entry point
 module.exports = function plugin(md, options) {
-  md.block.ruler.before(
-    'fence', 'hint', hintrule,
-    { alt: [ 'paragraph', 'reference', 'blockquote', 'list' ]}
-  );
 
-  md.renderer.rules.hint_open = render;
-  md.renderer.rules.hint_close = render;
+  ////////////////////////////////////////////
+  //there should be an epilog_token at the end of stream
+  //we combine all the hoisted scripts together
+  function _epilog_render(tokens, idx) {
+    const data = (md).__data
+    const hoistedTags = data.hoistedTags || (data.hoistedTags = ['','',''])
+    //0 is style
+    //1 is script setup
+    //2 is script
+    hoistedTags[0] = "<style>\n" + hoistedTags[0] + "</style>"
+    hoistedTags[1] = "<script setup>\n" + hoistedTags[1] + "</script>"
+    hoistedTags[2] = "<script>\n" + hoistedTags[2] + "</script>"
+    //job done
+    console.log('Hint Render\n', hoistedTags)
+    return `<!-- EPILOG -->\n`
+  }
+
+  ////////////////////////////////////////////
+  //new renderer for any HTML_BLOCK token
+  //replace the "hoist.js" in official
+  //hoist only script and style into md.data
+  function _hoist_render(tokens, idx) {
+    const data = (md).__data
+    const hoistedTags = data.hoistedTags || (data.hoistedTags = ['','',''])
+    const content = tokens[idx].content
+    if (_collate(content, hoistedTags) > 0) {
+      // return empty string
+      // scripts and styles are hoisted
+      return '<!-- CUSTOM STYLE HOISTED -->'
+    }
+    else {
+      //return original text
+      //could be a Custom Component, html tags or comment
+      return '<!--CUSTOM START-->' + content + '<!--CUSTOM END-->'
+    }
+  }
+
+  ////////////////////////////////////////////
+  //epilog hooks to the end of main parse,
+  md.core.ruler.after('inline', 'epilog', _epilog_hook)
+  md.renderer.rules.epilog_token = _epilog_render;
+
+  ////////////////////////////////////////////
+  //component detects html_blocks
+  //hoist adds them to the md.data
+  //md.block.ruler.at('html_block', _block)
+  md.renderer.rules.html_block = _hoist_render;
 };
-
