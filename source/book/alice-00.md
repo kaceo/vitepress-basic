@@ -7,4 +7,8 @@ By **Lewis Carroll**.
 
 Illustrated by **John Tenniel**.
 
-![](./images/titlepage.svg){.w-full}
+<script setup>
+import title from "./images/titlepage.svg"
+//![](./images/titlepage.svg)
+</script>
+<img :src="title">

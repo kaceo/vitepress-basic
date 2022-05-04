@@ -4,10 +4,12 @@ title: Frontispiece
 
 ### Frontispiece
 
-<Xfigure src="./images/illustration-1.png"
+<script setup>
+import pix1 from "./images/illustration-1.png"
+//![The King and Queen of Hearts are seated side-by-side on thrones looking out at the court. The Knave of Hearts is in the foreground, arms crossed and nose in the air.](./images/illustration-1.png)
+</script>
+<Xfigure :src="pix1"
 caption="The King and Queen of Hearts are seated side-by-side on thrones looking out at the court. The Knave of Hearts is in the foreground, arms crossed and nose in the air." />
-
-<!-- ![The King and Queen of Hearts are seated side-by-side on thrones looking out at the court. The Knave of Hearts is in the foreground, arms crossed and nose in the air.](./images/illustration-1.png){.w-full} -->
 
 ### Epigraph
 
